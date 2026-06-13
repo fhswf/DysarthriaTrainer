@@ -1,0 +1,146 @@
+{
+  "bereiche": [
+    {
+      "name": "Übungseinheit 01 - Lautbildung erste Artikulationszone (plosive /p/, /b/)",
+      "id": "UEE_01",
+      "uebungen": [
+        {
+          "id": "UK_01",
+          "ueberschrift": "Übungen für den Unterkiefer",
+          "umfang": "Kräftigungsübungen",
+          "beschreibung": {
+            "hinweis": "Diese Übungen dienen der Öffnung und Dehnung des Kiefergelenks.",
+            "erklaerung": "Zunge, Lippen und Wangen sind entspannt.",
+            "mp3": "UK_01.mp3",
+            "medium": {
+              "typ": "grafik",
+              "datei": "pfad/zur/graphik.png"
+            }
+          },
+          "aktion": [
+            {
+              "text": "Öffnen Sie Ihren Mund fünf Mal ganz weit, so weit Sie können, und wieder locker schließen",
+              "mp3": "UK_01_1.mp3",
+              "medium": {
+                "typ": "video",
+                "datei": "pfad/UK_01_1.mp4"
+              }
+            },
+            {
+              "text": "Bewegen Sie Ihren Unterkiefer fünf Mal locker von rechts nach links und wieder zurück",
+              "mp3": "UK_01_2.mp3",
+              "medium": {
+                "typ": "video",
+                "datei": "pfad/UK_01_2.mp4"
+              }
+            },
+            {
+              "text": "Bewegen Sie Ihren Unterkiefer fünf Mal locker auf und zu",
+              "mp3": "UK_01_3.mp3",
+              "medium": {
+                "typ": "video",
+                "datei": "pfad/UK_01_3.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WAR_01",
+          "ueberschrift": "Atmung - Wahrnehmung",
+          "umfang": "Wahrnehmungsübungen",
+          "beschreibung": {
+            "hinweis": "Diese Übungen dienen der Wahrnehmung und Schulung der Bauchatmung. Die Atmung lässt sich auch in den Flanken erspüren, an den Rippen, die sich sanft nach außen und innen bewegen.",
+            "erklaerung": "Setzen Sie sich entspannt hin. Die Schultern sind locker, die Füße parallel am Boden. Legen Sie eine Hand auf den Bauch. Jede Übung fünf Mal wiederholen.",
+            "mp3": "WAR_01.mp3",
+            "medium": {
+              "typ": "grafik",
+              "datei": "pfad/zur/graphik.png"
+            }
+          },
+          "aktion": [
+            {
+              "text": "Atmen Sie fünf Mal tief durch die Nase ein und langsam durch den Mund aus - spüren Sie die Bewegung im Bauch.",
+              "mp3": "WAR_01_1.mp3",
+              "medium": {
+                "typ": "video",
+                "datei": "pfad/WAR_01_1.mp4"
+              }
+            },
+            {
+              "text": "Halten Sie sich das rechte Nasenloch zu: Atmen Sie durch das linke Nasenloch ein und halten Sie kurz die Luft an. Wechseln Sie die Seite, halten sich nun das linke Nasenloch zu und atmen durch das rechts Nasenloch aus. Wiederholen Sie die Übung: Beginnen Sie mit der Einatmung drei Mal mit dem zugehaltenen rechten Nasenloch und drei Mal mit den zugehaltenen linken Nasenloch.",
+              "mp3": "WAR_01_2.mp3",
+              "medium": {
+                "typ": "video",
+                "datei": "pfad/WAR_01_2.mp4"
+              }
+            },
+            {
+              "text": "Genießen Sie für 30 Sekunden die tiefe Bauchatmung.",
+              "mp3": "WAR_01_3.mp3",
+              "medium": {
+                "typ": "video",
+                "datei": "pfad/WAR_01_3.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LBE_01",
+          "ueberschrift": "Sprechen - Lautbildung erste Artikulationszone",
+          "umfang": "Übungen - Lautbildung erste Artikulationszone (plosive /p/, /b/)",
+          "beschreibung": {
+            "hinweis": "",
+            "erklaerung": "Lockern Sie den Unterkiefer und die Lippen und sprechen Sie die folgenden Wortpaare.",
+            "mp3": "LBE_01.mp3",
+            "medium": {
+              "typ": "grafik",
+              "datei": "pfad/LBE_Pictogramm.png"
+            }
+          },
+          "aktion": [
+            {
+              "text": "Bulle - Pulle, Bube - Puppe, Bude - Pute, Bogen - Pocken, Bohle - Pole",
+              "mp3": "LBE_01_1.mp3",
+              "medium": {
+                "typ": "grafik",
+                "datei": "pfad/LBE_Pictogramm.png"
+              }
+            },
+            {
+              "text": "Bohren - Poren, bellen - Pellen, Binde - Pinte, Bass - Pass, Bar - Paar",
+              "mp3": "LBE_01_2.mp3",
+              "medium": {
+                "typ": "grafik",
+                "datei": "pfad/LBE_Pictogramm.png"
+              }
+            },
+            {
+              "text": "Backen - Packen, Baden - Paten, Braten - Prater, Brise - Prise, Bader - Pater",
+              "mp3": "LBE_01_3.mp3",
+              "medium": {
+                "typ": "grafik",
+                "datei": "pfad/LBE_Pictogramm.png"
+              }
+            },
+            {
+              "text": "Bein - Pein, Blatt - Platt, Hiebe - Hippe, Siebe - Sippe, Ober - Oper",
+              "mp3": "LBE_01_4.mp3",
+              "medium": {
+                "typ": "grafik",
+                "datei": "pfad/LBE_Pictogramm.png"
+              }
+            },
+            {
+              "text": "haben - Happen, laben - Lappen, Gabe - Kappe, Rabe - Rappe, Stäbe - Steppe",
+              "mp3": "LBE_01_5.mp3",
+              "medium": {
+                "typ": "grafik",
+                "datei": "pfad/LBE_Pictogramm.png"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
