@@ -1,0 +1,1454 @@
+{"bereiche": 
+
+	[
+		{
+		  "name": "Gymnastik Sprechwerkzeuge",
+		  "id": "GYM",
+		  "uebungen": 
+			[
+				{
+				  "id": "UK_01",
+				  "ueberschrift": "Übungen für den Unterkiefer",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen dienen der Öffnung und Dehnung des Kiefergelenks. Die Position des Kiefergelenks unterstützt die Lautbildung. Eine gute Kieferöffnung sorgt für eine gute Verständlichkeit.",
+								"erklaerung": "Zunge, Lippen und Wangen sind entspannt. Konzentrieren Sie sich auf Ihren Unterkiefer. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Öffnen Sie Ihren Mund ganz weit, so weit Sie können, und wieder locker schließen", 
+								"Lassen Sie Ihren Unterkiefer hängen, der Mund ist dabei offen - alle Muskeln entspannen", 
+								"Bewegen Sie Ihren Unterkiefer locker von rechts nach links",
+								"Bewegen Sie Ihren Unterkiefer locker auf und zu",
+								"Bewegen Sie Ihren Unterkiefer vor und zurück",
+								"Machen Sie Kaubewegungen mit geschlossenem Mund",
+								"Massieren Sie mit leichtem Druck das Kiefergelenk rechts und links"
+								]
+				},
+				{
+				  "id": "MU_01",
+				  "ueberschrift": "Übungen für den Mund",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen der Beweglichkeit und Kräftigung der Lippenmuskulatur. Ein guter Lippenschluss verhindert z. B. dass beim Trinken die Flüssigkeit herausläuft. Wir brauchen die Lippen für die Laute /b, p, f, w/",
+								"erklaerung": "Wangen, Kiefer und Zunge sind entspannt. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Spitzen Sie die Lippen", 
+								"Lippen breitziehen - lächeln mit geschlossenem Mund", 
+								"Lippen breitziehen - Zähne zeigen",
+								"Lippen spitzen und breitziehen im Wechsel",
+								"Die Oberlippe über die Unterlippe ziehen",
+								"Die Unterlippe über die Oberlippe ziehen",
+								"Mit den Zähnen auf die Unterlippe beißen",
+								"Mit den Zähnen auf die Oberlippe beißen",
+								"Lippen vorstülpen und 'SCH' sagen",
+								"Zwischen den Lippen einen Bleistift o. ä. halten",
+								"Einen Bleistift o. ä. im Mundwinkel halten",
+								"Die Lippen fest zusammenpressen und mit einem Geräusch lösen"
+								]
+				},
+				{
+				  "id": "MU_02",
+				  "ueberschrift": "Übungen für den Mund",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die übungen dienen der Lockerung und Kräftigung der Lippen- und Wangenmuskulatur. Eine kräftige Wangenmuskulatur verhindert z.B., dass Speise sich in der Wange sammelt.",
+								"erklaerung": "Kiefer und Zunge sind entspannt. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Mund abwechselnd nach rechts und links ziehen", 
+								"Mundwinkel nach unten ziehen - 'Schmollmund'", 
+								"Mit geschlossenem Mund Kaubewegungen machen",
+								"Gähnen",
+								"Pfeifen",
+								"Kinn hochziehen, dabei Lippen nach vorne wölben",
+								"Wangen aufblasen - 'Hamsterbacken' machen",
+								"Wangen einsaugen - 'Schnute' machen",
+								"Luft in den Wangen hin- und herschieben - 'Mund spülen'",
+								"Lippen flattern lassen - 'Pferdeschnauben'",
+								"Wangen aufblasen und mit einem 'plop' platzen lassen"
+								]
+				},
+				{
+				  "id": "MU_03",
+				  "ueberschrift": "Übungen für den Mund",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen der korrekten Lautformung von Lippen, Wangen, Kiefer und Zunge bei den Vokalen. Die Vokale sind wesentlich für eine gute Verständlichkeit.",
+								"erklaerung": "Kiefer bewegt sich entspannt mit den Lauten. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Mund weit öffnen - 'A' sprechen", 
+								"Mund locker öffnen - 'E' sprechen", 
+                                "Mund breitziehen - 'I' sprechen", 
+                                "Mund runden - 'O' sprechen", 
+                                "Mund kleiner runden - 'U' sprechen", 
+								"Sprechen Sie im Wechsel, jeweils 10_mal hintereinander:",
+                                	["A-O", "U-O", "U-I"],
+                                    ["O-I", "O-E", "AI-OI"],
+                                    ["I-A", "E-I", "OI-AU"],
+                                    ["A-E", "A-U", "AI-AU"]
+								]
+				},
+				{
+				  "id": "ZU_01",
+				  "ueberschrift": "Übungen für die Zunge",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen der Beweglichkeit der Zungenmuskulatur. Bei ein- oder beidseitiger Schwäche dienen sie zur Kräftigung und Dehnung. Neben der Wichtigkeit für das Sprechen brauchen wir die Zunge für das Bewegen der Speise im Mund.",
+								"erklaerung": "Kiefer, Wangen und Lippen sind entspannt. Nur die Zunge arbeitet!. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Zunge gerade herausstrecken und wieder zurückziehen", 
+								"Zunge in den rechten und in den linken Mundwinkel bewegen - im Wechsel", 
+                                "Die Zunge schnell von rechts nach links bewegen", 
+                                "Bei geöffnetem Mund mit der Zungenspitze ober- und Unterlippe antippen",
+                                "Zunge nach oben bis zur Nase bewegen, Zunge nach unten zum Kinn bewegen - im Wechsel", 
+                                "Bei geöffnetem Mund mit der Zungenspitze die Oberlippe ablecken, von rechts nach links und wieder zurück",
+                                "Bei geöffnetem Mund mit der Zungenspitze die unterlippe ablecken, von rechts nach links und wieder zurück",
+                                "Zungenspitze langsam über die Lippen kreisen - einmal rechtsherum, einmal linksherum"
+								]
+				},
+				{
+				  "id": "ZU_02",
+				  "ueberschrift": "Übungen für die Zunge",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen der Beweglichkeit der Zungenmuskulatur. Bei ein- oder beidseitiger Schwäche dienen sie zur Kräftigung und Dehnung. Die Zungenkraft sorgt für eine präzise Artikulation und hilft beim Schlucken.",
+								"erklaerung": "Kiefer, Wangen und Lippen sind entspannt. Nur die Zunge arbeitet!. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Mund leicht öffnen, Zunge flach im Mund liegen lassen", 
+								"Mit der Zunge in die rechte Wange und in die linke Wange drücken - im Wechsel - von außen mit dem Zeigefinger dagegenhalten", 
+                                "Mit geschlossenem Mund Zunge kreisen lassen", 
+                                "Mit der Zungenspitze bei geöffnetem Mund die obere Zahnreihe und die untere Zahnreihe abfahren - im Wechsel",
+                                "Mit der Zungenspitze bei geöffnetem Mund die Kau- und Schneideflächen der Zähne abfahren", 
+                                "Schnalzen",
+                                "Sprechen Sie ein kräftiges 'hok'",
+                                "Zungenspitze hinter die untere Zahnreihe legen, Zungenrücken herauswölben und wieder zurückziehen - im Wechsel (Pleuelübung)"
+								]
+				},
+                {
+				  "id": "GA_01",
+				  "ueberschrift": "Übungen für das Gaumensegel",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Das Gaumensegel dichtet den Mundraum vom Nasenraum ab. So entsteht ein voller Klang ohne Luftgeräusche. Die Übungen dienen der Kräftigung der Gaumensegelmuskulatur. Sie gelten für eine ein- oder beidseitige Schwäche.",
+								"erklaerung": "Konzentrieren Sie sich auf den Luftstrom. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Gähnen Sie hörbar mit offenem Mund Mund", 
+								"Gähnen Sie höflich mit geschlossenem Mund", 
+                                "Hauchen Sie in Ihre Hand, die Sie ca. 5 cm vor Ihren Mund halten", 
+                                "Legen Sie den Kopf leicht in den Nacken und pusten Sie ganz kräftig die Luft heraus",
+                                "Pusten Sie eine imaginäre Kerze aus", 
+                                "Schnarchen Sie laut", 
+                                "Fauchen Sie laut", 
+                                "Pusten Sie Ihre Wangen auf und schnauben Sie die Luft durch die Nase wieder aus", 
+                                "Atmen Sie nur durch die Nase ein und aus", 
+                                "Halten Sie ein Nasenloch zu, atmen Sie durch das offene Nasenloch ein und wieder aus, wechseln Sie die Seite",
+                                "Atmen Sie durch die Nase ein und durch den Mund wieder aus", 
+                                "Atmen Sie nur durch den Mund ein und aus"
+                                ]
+				},
+                {
+				  "id": "GA_02",
+				  "ueberschrift": "Übungen für das Gaumensegel",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Bei diesen Übungen kann immer wieder Luft durch die Nase entweichen. Hierzu dürfen Sie unterstützend die Nase zuhalten.",
+								"erklaerung": "Konzentrieren Sie sich auf den Luftstrom. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Nehmen Sie einen Strohhalm und pusten Sie damit in ein mit Wasser gefülltes Glas - lassen Sie das Wasser lange sprudeln", 
+								"Nehmen Sie einen Strohhalm und saugen Sie Papierschnitzel auf", 
+                                "Halten Sie die Papierschnitzel mit dem Strohhalm 3 Sekunden", 
+                                "Variieren Sie die Größe und Schwere der Papierschnitzel", 
+                                "Pusten Sie einen Tischtennisball quer über den Tisch", 
+                                "Suchen Sie sich einen Gegenspieler und spielen Sie 'Puste-Tischtennis'", 
+                                "Halten Sie sich die Nase zu und sprechen Sie: „abba”, „ebbe”, „ibbi”, „obbo”, „ubbu“ — dehnen Sie dabei das /b/",
+                                "Stauen Sie die Luft im Mundraum, indem Sie die Zungenspitze an den Gaumen drücken wie beim It/, dann lassen Sie die Luft durch die Nase ab"
+                                ]
+				},
+                {
+				  "id": "GA_03",
+				  "ueberschrift": "Übungen für das Gaumensegel",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Das Gaumensegel hilft, den Luftstrom zwischen Mund- und Nasenraum hin und her zu lenken. Beim Sprechen geht es ständig auf und zu.",
+								"erklaerung": "Konzentrieren Sie sich auf den Luftstrom. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								"Sprechen Sie ein angehaltenes „T” (stauen Sie die Luft), dann lassen Sie ein /a/ folgen: „T-A!”",
+                                "Sprechen Sie „S, SCH, CH” kurz und scharf hintereinander", 
+                                "Sprechen Sie „PT, K” kurz und scharf hintereinander", 
+                                "Flüstern Sie ein „A”",
+                                "Flüstern Sie ein „Hä?”", 
+                                "Flüstern Sie „Psst!”",
+                                "Sprechen Sie „ng-ng-ng-a”", 
+                                "Sprechen Sie in betont hoher Stimmlage", 
+                                "Sprechen Sie in betont tiefer Stimmlage", 
+                                "Sprechen Sie in wechselnden Stimmlagen: hoch - tief - hoch", 
+                                "Lachen Sie auf die Silben, betonen Sie dabei immer die letzte: „Ha-ha-ha” „He-he-he” „Hu -hu - hu” „Hä-hä-hä” „Hi-hi- hi”"
+                                ]
+				},
+                {
+				  "id": "GA_04",
+				  "ueberschrift": "Übungen für das Gaumensegel",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Mit dem zusätzlichen Druck aus der Bewegung wird der Verschluss des Gaumensegels unterstützt.",
+								"erklaerung": "Rufen Sie die Silben laut und deutlich, führen Sie dabei einfache Boxstöße vom Körper weg aus. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["Ah - Pa!", 
+                                "Ah - Ta!", 
+                                "Ah - Ka!", 
+                                "Eh - Pa!", 
+                                "Eh - Ta!", 
+                                "Eh - Ka!",
+                                "Ih - Pa!",
+                                "Ih - Ta!",
+                                "Ih - Ka!", 
+                                "Oh - Pa!",
+                                "Oh - Ta!",
+                                "Oh - Ka!",
+                                "Uh - Pa!",
+                                "Uh - Ta!",
+                                "Uh - Ka!"]
+                            ]
+				},
+                {
+				  "id": "GA_05",
+				  "ueberschrift": "Übungen für das Gaumensegel",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Kombination aus nasalen Lauten und oralen Verschlusslauten fordert das Gaumensegel auf, sich immer wieder zu öffnen und zu schließen.",
+								"erklaerung": "Sprechen Sie Silben, die Ihr Gaumensegel zum Flattern bringen. Sie können diese - tbc. Jede Übung 5-mal wiederholen oder 15 Sekunden durchführen.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["si si si", 
+                                "fi fi fi", 
+                                "schu schu schu", 
+                                "schi schi schi", 
+                                "mba mba mba", 
+                                "mbo mbo mbo", 
+                                "mbu mbu mbu", 
+                                "mbi mbi mbi", 
+                                "nda nda nda", 
+                                "ndu ndu ndu", 
+                                "ndi ndi ndi", 
+                                "nga nga nga", 
+                                "ngo ngo ngo",
+                                "ngu ngu ngu", 
+                                "sma sma sma",
+                                "sna sna sna"]
+                            ]
+				},
+                {
+				  "id": "SS_01",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Schnellsprechübungen fördern die Diadochokinese, d. h. den schnellen Wechsel von Einzelbewegungen, die die Zunge, der Kiefer und die Lippen ausführen müssen, damit die Silben korrekt artikuliert werden.",
+								"erklaerung": "Sprechen Sie jede Silbe bzw. Silbenkombination schnell und gleichmäßig mindestens 5-mal. Steigern Sie das Tempo, aber bleiben Sie sauber!",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["ba", "do", "ga", "we", "mo", "nu", "pa", "to", "ka", "fe", "ti", "ke", "fa", "babo",
+                                 "doda", "gagu", "mema", "wewo", "gomo", "weme", "mobo", "nubu", "gibi", "bega", "dawo", "goma",
+                                "meda", "nagu", "dibo", "pega", "dafo", "komi", "fune", "meta", "naku", "gipa", "tabo"]
+                            ]
+				},  
+                {
+				  "id": "SS_02",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Diadochokinese ist die beste Gymnastik für die Sprechwerkzeuge. Gleichzeitig können Sie Ihre Verständlichkeit trainieren.",
+								"erklaerung": "Sprechen Sie die Silbenkombination schnell und gleichmäßig mindestens 5-mal hintereinander. Steigern Sie das Tempo, aber bleiben Sie sauber!",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["buweba", "domida", "ganune", "wabowi", "medamo" ,"bedabo" ,"degadu" ,"gawogi" ,"vamowe", "nubena", "biwane", "genadi", "wadamu", "mobega", "bimadu", 
+                                "dawobi", "mugoni", "bagiwa", "gibuno", "wamiba", "pagubi", "tenago", "kawide", "mitabo", "bofega", "gapuni", "dutawe", "mataka", "godufi", "wagapo",
+                                "pagupi", "tumife", "fudata", "kawite", "pamofu", "mitapo", "kodufi", "fagapi", "nateka", "pakupi", "kofite", "tutafe", "kokufi", "papotu", "tupife",
+                                "fokato", "kaputi", "fetaka", "pataka"]
+                            ]
+				},                              
+                {
+				  "id": "SS_03",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Auch wenn es monoton erscheint, immer dieselben Silben zu sprechen. Es sind genau diese vielen Wiederholungen derselben Bewegung, die diese am besten trainieren.",
+								"erklaerung": "Sprechen Sie die Silbenkombination schnell und gleichmäßig mindestens 5-mal hintereinander. Steigern Sie das Tempo, aber bleiben Sie sauber!",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["ambi", "awda", "umdi", "dema", "abwa", "abnu", "onbe", "dowu", "omgu", "agno", "afdo" ,"dofi", "umti", "etmo", "apnu", "ampi", "onpe", "otwu", 
+                                "umku", "akno", "afto", "atfi", "otfu", "ifpe", "epfa", "afka", "akfo", "oftu", "ufke", "ipfa", "bawpam", "dimtan", "gonkiv", "pawbom", "temdan", 
+                                "kungew", "nabfog", "fedmab", "wogfid", "fagned"]
+                            ]
+				},  
+				{
+				  "id": "SS_04",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Wenn Sie die Zeilen sprechen, verändern Sie immer nur eine Variable, nämlich den Vokal, während die Konsonanten gleich bleiben. Somit müssen sich Kiefer und Zunge immer nur minimal verändern. Wenn Sie die Spalten sprechen, bleibt jetzt der Vokal gleich, während sich die Konsonanten ändern. Die Anforderung an die Kiefer-, Zungen- und Lippenbewegungen sind dadurch größer.",
+								"erklaerung": "Sprechen Sie die Zeilen zunächst langsam und gleichmäßig mindestens 3-mal hintereinander. Steigern Sie das Tempo, aber bleiben Sie sauber! Dann sprechen Sie die Spalten von oben nach unten, ebenfalls 3-mal hintereinander.",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["am", "em", "im", "om", "um"],
+								["an", "en", "in", "on", "un"],
+								["al", "el", "il", "ol", "ul"],
+								["ar", "er", "ir", "or", "ur"],
+								["at", "et", "it", "ot", "ut"],
+								["ak", "ek", "ik", "ok", "uk"],
+								["af", "ef", "if", "of", "uf"],
+								["as", "es", "is", "os", "us"],
+								["asch", "esch", "isch", "osch", "usch"],
+								["ach", "ech", "ich", "och", "uch"],
+								["amp", "emp", "imp", "omp", "ump"],
+								["alp", "elp", "ilp", "olp", "ulp"],
+								["arp", "erp", "irp", "orp", "urp"],
+								["amt", "emt", "imt", "omt", "umt"],
+								["alt", "elt", "ilt", "olt", "ult"],
+								["art", "ert", "irt", "ort", "urt"],
+								["apt", "ept", "ipt", "opt", "upt"],
+								["akt", "ekt", "ikt", "okt", "ukt"],
+								["aft", "eft", "ift", "oft", "uft"]
+                            ]
+				}, 
+				{
+				  "id": "SS_05",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "In dieser Übung kombinieren Sie Schnelligkeit mit Geschicklichkeit.",
+								"erklaerung": "Sprechen Sie die Zeilen zunächst langsam und gleichmäßig mindestens 3-mal hintereinander. Steigern Sie das Tempo, aber bleiben Sie sauber!",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["ma-ma-ma", "na-na-na", "la-la-la", "ra-ra-ra", "ba-ba-ba", "da-da-da", "ga-ga-ga", "pa-pa-pa", "ta-ta-ta", "ka-ka-ka", "fa-fa-fa", "wa-wa-wa", "sa-sa-sa", "scha-scha-scha", "za-za-za", "pfa-pfa-pfa", "spa-spa-spa", "sta-sta-sta"],
+								["ma-me-mi", "na-ne-ni", "la-le-li", "ra-re-ri", "ba-be-bi", "da-de-di", "ga-ge-gi", "pa-pe-pi", "ta-te-ti", "ka-ke-ki", "fa-fe-fi", "wa-we-wi", "sa-se-si", "scha-sche-schi", "za-ze-zi", "pfa-pfe-pfi" ,"spa-spe-spi", "sta-ste-sti"],
+								["ma-mo-mu", "na-no-nu", "la-lo-lu", "ra-ro-ru", "ba-bo-bu", "da-do-du", "ga-go-gu", "pa-po-pu", "ta-to-tu", "ka-ko-ku", "fa-fo-fu", "wa-wo-wu", "sa-so-su", "scha-scho-schu", "za-zo-zu", "pfa-pfo-pfu", "spa-spo-spu", "sta-sto-stu"]
+                            ]
+				},
+				{
+				  "id": "SS_06",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "In dieser Übung kombinieren Sie Schnelligkeit mit Geschicklichkeit.",
+								"erklaerung": "Sprechen Sie die Zeilen zunächst langsam und gleichmäßig mindestens 3-mal hintereinander. Steigern Sie das Tempo, aber bleiben Sie sauber!",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["bra-bra-bra", "dra-dra-dra", "gra-gra-gra", "pra-pra-pra", "tra-tra-tra", "kra-kra-kra", "fra-fra-fra", "schra-schra-schra", "spra-spra-spra", "stra-stra-stra"],
+								["bra-bre-bri", "dra-dre-dri", "gra-gre-gri", "pra-pre-pri", "tra-tre-tri", "kra-kre-kri", "fra-fre-fri" ,"schra-schre-schri", "spra-spre-spri", "stra-stre-stri"],
+								["ma-mo-mu", "na-no-nu", "la-lo-lu", "pra-pro-pru", "tra-tro-tru", "kra-kro-kru", "fra-fro-fru" ,"schra-schro-schru" ,"spra-spro-spru", "stra-stro-stru"],
+								["bla-bla-bla", "gla-gla-gla", "pla-pla-pla", "kla-kla-kla", "fla-fla-fla", "schla-schla-schla", "spla-spla-spla"],
+								["bla-ble-bli", "gla-gle-gli", "pla-ple-pli", "kla-kle-kli", "fla-fle-fli", "schla-schle-schli", "spla-sple-spli"], 
+								["bla-blo-blu", "gla-glo-glu", "pla-plo-plu", "kla-klo-klu", "fla-flo-flu", "schla-schlo-schlu", "spla-splo-splu"]
+                            ]
+				},
+				{
+				  "id": "SS_07",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "In dieser Übung geht es um den Unterschied von stimmhaften und stimmlosen Lauten. Der Unterschied muss im Wort deutlich artikuliert werden, da er die Bedeutung verändert.",
+								"erklaerung": "Sprechen Sie die Zeilen zunächst langsam und gleichmäßig mindestens 3-mal hintereinander. Steigern Sie das Tempo, aber bleiben Sie sauber!",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["pa ba", "pe be", "pi bi", "po bo", "pö bö", "pu bu", "pü bü", "pau bau", "pei bei", "peu beu"], 
+								["ta da", "te de", "ti di", "to do", "tö dö", "tu du", "tü dü", "tau dau", "tei dei", "teu deu"],
+								["fa wa", "fe we", "fi wi", "fo wo", "fö wö", "fu wu", "fü wü", "fau wau", "fei wei", "feu weu"],
+								["ka ga", "ke ge", "ki gi", "ko go", "kö gö", "ku gu", "kü gü", "kau gau", "kei gei", "keu geu"]
+                            ]
+				},
+				{
+				  "id": "SS_08",
+				  "ueberschrift": "Schnellsprechübung",
+				  "umfang": "Kräftigungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Sprechen Sie die Silben langsam und deutlich. Achten Sie auf den Unterschied zwischen den Frikativen /s, sch/ sowie der Affrikate /ts/.",
+								"erklaerung": "Sprechen Sie die Zeilen zunächst langsam und gleichmäßig mindestens 3-mal hintereinander. Steigern Sie das Tempo, aber bleiben Sie sauber!",
+								"mp3": "pfad/zur/datei.mp3",
+								"grafik": "pfad/zur/graphik.png"
+								},
+				  "aktion": [
+								["sa", "se", "si", "so", "sö", "su", "sü", "sau", "sei", "seu"],
+								["scha", "sche", "schi", "scho", "schö", "schu", "schü", "schau", "schei", "scheu"],
+								["za", "ze", "zi", "zo", "zö", "zu", "zü", "zau", "zei", "zeu"]
+                            ]
+				}
+            ]
+			
+		},
+
+		{
+		  "name": "Atmung",
+		  "id": "ATM",
+		  "uebungen": 
+			[
+				{
+				  "id": "WAR_01",
+				  "ueberschrift": "Atmung - Wahrnehmung",
+				  "umfang": "Wahrnehmungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen dienen der Wahrnehmung und Schulung der Bauchatmung. Die Atmung lässt sich auch in den Flanken erspüren, an den Rippen, die sich sanft nach außen und innen bewegen.",
+								"erklaerung": "Setzen Sie sich entspannt hin. Die Schultern sind locker, die Füße parallel am Boden. Legen Sie eine Hand auf den Bauch. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie tief durch die Nase ein und langsam durch den Mund aus - Spüren Sie die Bewegung im Bauch: Sie atmen ein - der Bauch kommt vor, Sie atmen aus, der Bauch geht rein", 
+								"Halten Sie das rechte Nasenloch zu: Atmen Sie durch das linke Nasenloch ein, halten Sie kurz die Luft an (Atempause), halten Sie dann das linke Nasenloch zu: Atmen Sie durch das rechte Nasenloch aus - Spüren Sie die Bewegung im Bauch: Sie atmen ein - der Bauch kommt vor, Sie atmen aus, der Bauch geht rein",
+								"Genießen Sie für 30 Sekunden die tiefe Bauchatmung"
+								]
+				},
+				{
+				  "id": "WAR_02",
+				  "ueberschrift": "Atmung - Wahrnehmung",
+				  "umfang": "Wahrnehmungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen der Wahrnehmung und Schulung der Bauchatmung, wenn es im Sitzen noch schwierig ist.",
+								"erklaerung": "Legen Sie sich entspannt hin. Legen Sie eine Hand auf das Zwerchfell oder beschweren Sie den Bauch mit einem Buch. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie tief durch die Nase ein", 
+								"Atmen Sie langsam durch den Mund aus", 
+								"Spüren Sie die Bewegung im Bauch - Sie atmen ein - der Bauch drückt nach oben - Sie atmen aus - der Bauch fällt nach unten", 
+								"Konzentrieren Sie sich auf die Ausatmung, wenn der Bauch nach unten geht",
+								" Während Sie ausatmen, formen 5ie ein „ssss”, ein „schsch” oder ein „ffff”",
+								"Versuchen Sie dieAusatmung zu verlangsamen, indem Sie im Kopf bis 3 (bis 5, bis 7, bis 9)zählen", 
+								"Genießen Sie die tiefe Bauchatmung"
+							]
+				},
+				{
+				  "id": "WAR_03",
+				  "ueberschrift": "Atmung - Wahrnehmung",
+				  "umfang": "Wahrnehmungsübungen",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen der Wahrnehmung und Schulung der Bauchatmung, sie trainieren das Zwerchfel und die reflektorische Atemergänzung, also die Luft passiv einströmen zu lassen'",
+								"erklaerung": "Setzen oder stellen sie sich entspannt hin. Füße parallel oder hüftbreit auseinander. Legen sie eine Hand auf den Bauch. Kiefer ist locker. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie tief durch die Nase ein", 
+								"Atmen Sie kurz und schnell auf ein „Schl” über den Mund aus",
+								"Stellen Sie sich eine Dampflokvor: „Sch - Sch - Sch - Sch!” - jedes „Sch!” auf einen Atemzug",
+								"Spüren Sie die Bewegung im Bauch- Mit jedem „Sch!” kontrahiert das Zwerchfell - Die Hand auf dem Bauch geht vor und zurück",
+								" Lassen Sie die Luft nach jedem „Sch!” automatisch wieder einströmen", 
+								"Jetzt probieren Sie 3-mal ,„Sch - Sch - Sch!” auf einen Atemzug - die Bauchdecke ist leicht angespannt, dann loslassen und die Luft wieder einströmen lassen",
+								"Wenn Sie die reflektorische Atemergänzung beherrschen, können Sie - ohne in Luftnot zu geraten - immer weiter zischen"
+							]
+				},
+				
+				{
+				  "id": "VER_01",
+				  "ueberschrift": "Atmung - Verlängerung",
+				  "umfang": "Übungen für Sprechatmung",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen zur Atemverlängerung und dem Training der Sprechatmung.",
+								"erklaerung": "Setzen Sie sich entspannt hin. Die Schultern sind locker. Legen Sie eine Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie tief durch die Nase ein - zählen Sie dabei im Kopf bis 3, atmen Sie langsam durch den Mund aus - zählen Sie dabei im Kopf bis 3, Spüren Sie die Bewegung im Bauch: Sie atmen ein - der Bauch kommt vor, Sie atmen aus, der Bauch geht rein", 
+								"Verlängern Sie den Atemzug um eine Zahl - zählen Sie jeweils bis 4", 
+								"Verlängern Sie den Atemzug um eine Zahl - zählen Sie jeweils bis 5",
+								"Setzen Sie sich ein Ziel: Verlängern Sie die Atemphasen bis 10",
+								"Nehmen Sie Ihre Zielzahl: Sprechen Sie jetzt bei der Ausatmung die Zahlen leise aus",
+								"Nehmen Sie Ihre Zielzahl: Atem Sie langsam durch die Lippen aus und pusten Sie dabei ein sanftes 'ffff' - die sog. Lippenbremse"
+								]
+				},
+				{
+				  "id": "VER_02",
+				  "ueberschrift": "Atmung - Verlängerung",
+				  "umfang": "Übungen für Sprechatmung",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen dienen zurAtemverlängerung und sind auch sehr gut in einer großen Halle oder - besser noch - draußen durchzuführen",
+								"erklaerung": "Stellen Sie sich hin. Die Schultern sind locker. Leqen Sie eine Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen sie tief durch die Nase ein - und gehen sie dabei drei schritte vor",
+								"Atmen Sie langsam durch den Mund aus - und gehen Sie dabei weitere drei Schritte",
+								"Verlängern Sie nun Ihre Atmung, indem Sie die Anzahl der Schritte pro Einatmung und Ausatmung erhöhen, also - Einatmen: 1-2-3-4 Schritte vor - Ausatmen: 1-2-3-4 Schritte vor - Einatmen: 1-2-3-4-5 Schritte vor - Ausatmen: 1-2-3-4-5 Schritte vor",
+								"Versuchen Sie die Schrittanzahl bis auf 10 zu erhöhen, konzentrieren Sie sich dabei auf das Gehen und das Atmen",
+								"Nun atmen Sie beiden Schrittfolgen jeweils auf „sss”, „schschsch” oder „ffff” aus",
+								"Sie können auch leise beiderAusatmung mitzählen: „1-2-3-4-5...”",
+								"Genießen sie das meditative Gehen und die Konzentration auf Ihre Atmung"
+								]
+				},
+				{
+				  "id": "VER_03",
+				  "ueberschrift": "Atmung - Verlängerung",
+				  "umfang": "Übungen für Sprechatmung",
+				  "beschreibung": 
+								{
+								"hinweis": "ln diesen Übungen wird bewusst noch ohne Stimme geübt, damit die Konzentration ganz bei der Wahrnehmung und Verlängerung der Atmung ist.",
+								"erklaerung": "Setzen Sie sich entspannt und aufrecht hin. Die Schultern sind locker. die Füße parallel am Boden. Legen Sie eine Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie tief durch die Nase ein und atmen Sie dann langsam und gut dosiert auf „ssss” oder „schschsch” oder „ffff” aus", 
+								"Versuchen Sie möglichst lange auf das Geräusch auszuatmen, nehmen Sie eine Stoppuhr oder schauen Sie auf den Sekundenzeiger Ihrer Uhr", 
+								"Ziel ist es, möglichst lange, mindestens 15 Sekunden, auf das Geräusch auszuatmen",
+								"Versuchen Sie als nächsten Schritt, das Geräusch lauter und leiser werden zu lassen, also - sssssSSSSSSssss - SSSSSssssSSSS - ssssSSSSS - SSSSsssss",
+								"Sie können das Geräusch auch in einer Art Morsecode produzieren, also z.B. - Ss-ss-SSSSSSS-ss-ss _ S5-S-SSSSSS-S-S-SSSSSS - F-F-F-ffffff-F-F-F-ffffff - Schschsch-SCH-schschsch-SCH",
+								"Konzentrieren Sie sich auf die Ausatmung und die Verlängerung lhres Atemstoßes"
+								]
+				},
+				{ //4.5 Ü1
+				  "id": "ZWE_01",   
+				  "ueberschrift": "Atmung - Zwerchfelltraining",
+				  "umfang": "Übungen für Zwerchfell",
+				  "beschreibung": 
+								{
+								"hinweis": "Hier trainieren Sie das Zwerchfell durch diese kleinen reflektorischen Bewegungen, die immer wieder die Luft einströmen lassen. Üben Sie es langsam, damit es in 'Fleisch und Blut' übergeht. Die Konsonanten B L K sind Verschlusslaute, bei denen am Ende die Luft explosiv entweicht. Dies unterstützt die Zwerchfellbewegung.",
+								"erklaerung": "Setzen Sie sich entspannt und aufrecht hin. Die Schultern sind locker; die Füße parallel am Boden Kiefer ist locker. Legen Sie eine Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie tief durch die Nase ein", 
+								"Versuchen sie jetzt, kleine imaginäre Pfeile zu werfen und dabei 'p-T-K' zu sprechen", 
+								"Lassen Sie die Pfeile größer werden und werfen Sie sie auf eine imaginäre Scheibe",
+								"Versuchen Sie die Übung im Stehen"
+							]
+				},
+				{ //4.5 Ü2
+				  "id": "ZWE_02",   
+				  "ueberschrift": "Atmung - Zwerchfelltraining",
+				  "umfang": "Übungen für Zwerchfell",
+				  "beschreibung": 
+								{
+								"hinweis": "Hier trainieren Sie das Zwerchfell durch die Lösung der Spannung mit dem Verschlusslaut 'T' am Ende. Sie spüren die spannung im Bauch. Mit dem 'T' lösen sie die spannung und die Luftströmt reflektorisch wieder ein.",
+								"erklaerung": "Stellen oder setzen Sie sich aufrecht hin. Die Schultern sind locker, die Füße parallel am Boden. Kiefer ist locker. Bauch ist entspannt. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie tief durch die Nase ein - Bauch kommt raus", 
+								"Legen Sie den Zeigefinger auf die Lippen und sprechen 5ie kräftig 'Pssst!'", 
+								"Genießen Sie dabeidas Lösen der Spannung am Ende mit dem 'T' -'pssst!'",
+								"Stellen Sie sich vor, wie Sie jemandem 'Psst!' zuraunen, z. B. im Kino oder im Theater",
+								"Verlängern Sie dann das 'Pssssst!', versuchen Sie möglichst langsam und lange auszuatmen",
+								"Halten Sie die Handfläche vor den Mund und pusten Sie schnell darüber hinweg, als wollten Sie etwas wegpusten"
+							]
+				},
+				{ //4.6 Ü1
+				  "id": "AWU_01",   
+				  "ueberschrift": "Atmung - Atemwurf",
+				  "umfang": "",
+				  "beschreibung": 
+								{
+								"hinweis": "",
+								"erklaerung": "Stellen oder setzen Sie sich aufrecht hin. Die Schultern sind locke4 die Füße parallel am Boden Kiefer ist locker. Bauch ist entspannt, die Hand liegt auf dem Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Rufen Sie folgende Silben. Stellen sie sich dabei vor, dass Sie die Silben jemandem auf der anderen Seite des Raumes zurufen. Dabei federt der Bauch vor und zurück. Der Ton kommt aus dem Bauch.",
+									["Hoooh!"],
+									["Heeeeh!"],
+									["Haaaah!"],
+									["Hiiih!"],
+									["Höööh!"],
+								"Legen Sie eine Hand auf den Bauch und rufen Sie folgende Silben kurz hintereinander.",
+									["Ho ho ho!"],
+									["He he he!"],
+									["Ha ha ha!"],
+									["Hö hö hö!"],
+									["Hey hey hey!"],
+									["Hi hi hi!"],
+								"Rufen Sie nun kurze und lange Silben im Wechsel.",
+									["Ho ho hoooh!"],
+									["He he heeh!"],
+									["Ha ha haah!"],
+									["Hö hö hööh!"],
+									["Hey hey Heyeyh!"],
+									["Hi hi hiih!"]
+							]
+				},
+				{ //4.6 Ü2
+				  "id": "AWU_02",   
+				  "ueberschrift": "Atmung - Atemwurf",
+				  "umfang": "Übungen für Atemwurf",
+				  "beschreibung": 
+								{
+								"hinweis": "",
+								"erklaerung": "Stellen oder setzen Sie sich aufrecht hin. Schultern locker; Füße parallel am Boden, Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Wenn Sie einen Ballzur Hand haben, dann prellen Sie ihn mit jedemAusruf auf den Boden", 
+									["Hopp!",	"Doch!",		"So nicht!"],
+									["Hepp!",	"Zu!",			"O weh!"],
+									["So!",		"Hilfe!",		"O jal"],
+									["Lauf!",	"Weg!",			"O neinl"],
+									["Nie!",	"Geh!",			"O doch!"],
+									["Los!",	"Bleib!",		"Verdammt!"],
+									["Hui!",	"Platz!",		"O Gott!"],
+									["He!",		"Sitz!",		"Donnerwetter!"],
+									["Raus!",	"Nein!",		"Ja verrückt!"],
+									["Ja!!",	"Ja!",			"Freilich!"],
+									["Wo?",		"Nicht!",		"Mannomann!"],
+									["Da!",		"Hierher!",		"Super!"],
+									["Wie?",	"Hütet euch!",	"Prima!"],
+									["Du!",		"Halt mal!",	"Moin!"],
+									["Holla!",	"Hör mal!",		"Servus!"],
+									["Hallo!",	"Geh weg!",		"Stopp!"],
+									["Geh!",	"Bleib hier!",	"Achtung!"],
+									["Komm!",	"Sei still!",	"Vorsicht!"]
+							]
+				},
+				{ //4.6 Ü3
+				  "id": "AWU_03",   
+				  "ueberschrift": "Atmung - Atemwurf",
+				  "umfang": "Übungen für Atemwurf",
+				  "beschreibung": 
+								{
+								"hinweis": "",
+								"erklaerung": "Stellen oder setzen Sie sich aufrecht hin. Schultern locker; Füße parallel am Boden, Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Dehnen Sie den Anfangslaut, der Atemwurf erfolgt auf den Vokal. Auch hier können Sie mit einem Ball oder Ballon arbeiten: 'hhhh-olen'", 
+									["holen", 		"feilen", 	"testen", 	"blinzeln"],
+ 									["hausen", 		"feuern", 	"steigen",	"wohnen"],
+									["hängen", 		"feiern", 	"können", 	"wachen"],
+  									["hören", 		"finden", 	"kämmen", 	"wollen"],
+  									["heulen", 		"fahren", 	"kommen", 	"winden"],
+  									["halten", 		"fallen", 	"keifen",	"werfen"],
+  									["helfen", 		"fehlen", 	"kaufen", 	"wissen"],
+  									["hüten", 		"führen", 	"kehren", 	"wandern"],
+  									["haben", 		"finden", 	"loben", 	"wundern"],
+  									["heben", 		"fliegen",	"laden",	"mögen"],
+  									["schonen", 	"fordern",	"lösen", 	"malen"],
+  									["schlafen",	"pusten", 	"lesen",	"mahnen"],
+  									["schauen", 	"pauken", 	"lügen", 	"maulen"],
+  									["schieben",	"spielen",	"leiten", 	"meistern"],
+  									["schuften",	"packen", 	"laufen", 	"nagen"],
+  									["schaben", 	"pinseln",	"leugnen", 	"niesen"],
+  									["scheuen", 	"pendeln",	"lindern", 	"neigen"],
+  									["folgen", 		"stehen", 	"naschen", 	"nennen"]
+							]
+				},
+				{ //4.6 Ü4
+				  "id": "AWU_04",   
+				  "ueberschrift": "Atmung - Atemwurf",
+				  "umfang": "Übungen für Atemwurf",
+				  "beschreibung": 
+								{
+								"hinweis": "Der sog. Atemwurf ist eine Technik nach Fernau-Horn. Hierbei nutzen Sie die Bauch- bzw. Zwerchfellspannung, um möglichst viel Resonanz zu erzeugen und einen klaren Stimmeinsatz zu produzieren. Sie nutzen lhre Ausatembewegung, um mit Schwung zu sprechen. Die Übungen sind besonders schwungvoll, wenn Sie gleichzeitig einen Ball auf den Boden prellen oder einen Luftballon von sich wegschlagen.",
+								"erklaerung": "Stellen oder setzen Sie sich aufrecht hin. Schultern locker, Füße parallel am Boden, Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Rufen Sie die kurzen Phrasen, beachten Sie die Betonung auf dem Vokal: 'wir jagen, wir riechen'", 
+									["wir Jagen", 	"wir glauben", 	"wir lügen"],
+									["wir riechen",	"wir büßen", 	"wir prüfen"],
+									["wir rufen", 	"wir baden", 	"wir denken"],
+									["wir reden", 	"wir bitten", 	"wir geben"],
+									["wir rauben", 	"wir brüten", 	"wir bringen"],
+									["wir reisen", 	"wir beißen", 	"wir leben"],
+									["wir sitzen", 	"wir deuten", 	"wir holen"],
+									["wir seufzen", "wir dürfen", 	"wir kaufen"],
+									["wir bauen", 	"wir danken", 	"wir klauen"]
+							]
+				},
+				{ //4.6 Ü5
+				  "id": "AWU_05",   
+				  "ueberschrift": "Atmung - Atemwurf",
+				  "umfang": "Übungen für Atemwurf",
+				  "beschreibung": 
+								{
+								"hinweis": "",
+								"erklaerung": "Stellen oder setzen Sie sich aufrecht hin. Schultern locker, Füße parallel am Boden, Hand auf den Bauch. Jede Übung 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Hier wechseln Sie die Betonung, achten Sie darauf, ob es Aussagen, Aufforderungen oder Fragen sind. Bleiben Sie dabei in lhrer Rufstimme", 
+									["Wir jagen euch.", 	"Hör doch auf!"],
+  									["Sie folgen uns.", 	"Schau mal dort!"],
+  									["Du kannst es doch.", 	"Hör mich an!"],
+  									["Da kommen sie.",		""],
+ 									["Sie glauben uns.", 	"Zögerst Du noch?"],
+  									["Wir glauben euch.", 	"Bleibst Du noch?"],
+  									["Du hörst mich nicht.","Gibst Du es ihr?"],
+  									["Wir helfen euch.", 	"Willst Du das?"],
+  									["", 					"Suchst Du das hier?"],
+  									["Bring es mit!", 		"Bringst Du es mir?"],
+  									["Verrate uns nicht!",  "Glaubst Du das?"],
+  									["Folgt uns schnell!", 	"Siehst Du mich?"],
+  									["Trau Dich doch!", 	"Hören Sie mich?"],
+  									["Nimm es mit!", 		""]
+							]
+				}
+			]
+		},
+
+		{
+		  "name": "Stimmgebung",
+		  "id": "STG",
+		  "uebungen": 
+			[
+				{ //5.3 Ü1
+				  "id": "SKL_01",
+				  "ueberschrift": "Stimme - Stimmklang",
+				  "umfang": "Übungen für den Stimmklang",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen dienen der Lockerung und Eutonisierung der Stimme. Sie produzieren dabei Ihre normale Stimmlage, die sog. Indifferenzlage. Durch die gleichmäßigen Schwingungen der Stimmlippen 'massieren' Sie Ihre Stimme.",
+								"erklaerung": "Wangen, Kiefer und Zunge sind entspannt. Die Zähne liegen locker aufeinander. Hand auf den Bauch legen. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Denken Sie an etwas Leckeres zu essen und sagen Sie Mmh!: Dabei vibrieren die Lippen, die Stimme geht leicht nach oben - nur ganz kurz summen, dann wieder lockerlassen. ", 
+								"Verlängern Sie das 'Mmh!' zu einem 'Mmomm': Lippen bleiben locker geschlossen und öffnen sich nur kurz für den Vokal - Sie spüren ein leichtes Vibrieren im Mund- und Nasenraum.", 
+								"Sprechen Sie 'Mmomm - Mmamm - Mmumm'",
+								"Summen Sie auf 'Nnnh'",
+								"Summen Sie auf 'Nngh'",
+								"Lassen Sie die Lippen flattern ('Pferdeschnauben') mit einem stimmhaften Ton - wandern Sie nach oben und unten mit der Stimme"
+								]
+				},
+				//5.3 Ü2
+				{
+				  "id": "SKL_02",
+				  "ueberschrift": "Stimme - Stimmklang",
+				  "umfang": "Übungen für den Stimmklang",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen sollen eine möglichst entspannte Stimmlage produzieren, die sog. lndifferenzlage. Das Summen setzt lhre Stimmlippen in gleichmäßige Schwingungen. Beim Lippenflattern entspannen sich die Muskeln von Lippen, Wangen und Kiefer.",
+								"erklaerung": "Wangen, Kiefer und Zunge sind entspannt. Die Zähne liegen locker aufeinander. Hand auf den Bauch legen. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Summen Sie auf 'Mmh!' (in Gedanken 'Mmh,lecker!') - Dabei 'kitzeln' die Lippen - Die Stimme geht leicht nach oben - Nur ganz kurz summen, dann wieder lockerlassen", 
+								"Summen Sie auf 'Momm - Mamm - Mumm' - Lippen bleiben locker geschlossen und öffnen sich nur kurz für den Vokal - Sie spüren ein leichtes Vibrieren im Mund- und Nasenraum", 
+								"Behalten Sie das lockere Gefühl im Wangen- und Kieferbereich und sprechen Sie dann", 
+									["Maaaa - Moooo - Muuuu"],
+									["Naaaa - Noooo - Nuuuu"],
+									["Ngaaa - Ngooo - Nguuuu"],
+								"Lassen Sie die Lippen flattern ('Pferdeschnauben') mit einem stimmhaften Ton - Versuchen Sie eine kleine Melodie zu 'flattern' - Sie können das Lippenflattern unterstützen, indem Sie rechts und links mit den Fingern die Mundwinkel stabilisieren"
+								]
+				},
+				//5.3 Ü3
+				{
+				  "id": "SKL_02",
+				  "ueberschrift": "Stimme - Stimmklang",
+				  "umfang": "Übungen für den Stimmklang",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen dienen dem weichen Stimmeinsatz. lm Deutschen wird vor jedem Vokal am Wortanfang ein Glottisstopp gesetzt. Dabei schlagen die Stimmlippen zusammen, bevor sie sich für den Laut öffnen. Dies führt zu einem harten Klanq und kann bei Erkrankungen verstärkt werden.",
+								"erklaerung": "Wangen, Kiefer und Zunge sind entspannt. Die Zähne liegen locker aufeinander. Denken Sie an die Bauchatmung. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Atmen Sie ein und tönen Sie auf ein weiches 'Haaa' aus", 
+								"Probieren Sie die Stimme ganz weich einzusetzen, indem Sie vor jeden Vokal ein 'H' hauchen",
+									["Haaaa"],
+									["Heeee"],
+									["Hiiii"],
+									["Hooo"],
+									["Huuu"], 
+								"Dann probieren Sie das 'H' wegzulassen und die Vokale noch einmal ganz weich zu tönen",
+									["Aaaaa"],
+									["Eeeee"],
+									["Iiiii"],
+									["Oooo"],
+									["Uuuu"],
+								"Sprechen Sie den Satz -'Heute holen Hans und Hilda Har aus dem Hafen'",
+								"Bleiben Sie entspannt, atmen Sie durch den Bauch lassen Sie die Worte weich aus sich herauskommen"
+								]
+				},
+				//5.4 Ü1
+				{
+				  "id": "SST_01",
+				  "ueberschrift": "Stimme - Stimmstärke",
+				  "umfang": "Übungen für die Stimmstärke",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen dienen der Ausnutzung der Bauchatmung, um eine kräftige Stimme zu produzieren.",
+								"erklaerung": "Stellen oder setzen Sie sich hin. Atmen Sie in den Bauch. Spüren Sie den Ton, der aus dem Bauch kommt - erleben Sie Ihre volle Stimme. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Legen Sie die Hand auf den Bauch, atmen Sie ein und rufen beim Ausatmen eine lautes 'hoh!', lassen Sie den Bauch wieder locker.", 
+								"Rufen Sie mit jedem Atemzug ein lautes 'Hoh!'. Stellen Sie sich vor, Sie sind der Kutscher, die die Pferde beruhigt: 'Hoh! - dabei geht der Bauch nach innen.", 
+								"Rufen Sie jetzt ein 'Ho ho ho!' wie der Weihnachtsmann - auf einen Atemzug.",
+								"Variieren Sie die Rufe und den Rhythmus - bleiben Sie laut und voller Stimme - die Stimme kommt aus dem Bauch:",
+									["Ho Ho",	"Hey hey hey"], 
+									["Hu Hu",	"Ha ha ha ha"],
+									["Hey Hey",	"Hö hi hö ha"], 		
+									["Ha Ha",	"Heho heho"],
+									["Hö Hö",	"Hiha hiha"],
+								"Lassen Sie die Rufe mal kurz, mal lang werden: 'Hoooooh!'. 'Heyeyeye!'",
+								"Spüren Sie den Ton, der aus dem Bauch kommt, erleben Sie lhre volle Stimme"
+							]
+				},
+				{ //5.4 Ü2
+				  "id": "SST_02",
+				  "ueberschrift": "Stimme - Stimmstärke",
+				  "umfang": "Übungen für die Stimmstärke",
+				  "beschreibung": 
+								{
+								"hinweis": "Mit diesen übungen trainieren Sie das Abspannen. Dabei nutzen Sie den Bauchraum, um viel Anblasedruck zu gewinnen und gleichzeitig eine volle Stimme zu produzieren.",
+								"erklaerung": "Stellen oder setzen Sie sich hin. Atmen Sie über den Bauch. Nehmen Sie einen (imaginären) Ball in die Hand. Jede Übung 5-mal wiederholen",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Werfen Sie den Ball auf den Boden und rufen Sie dabei. Rufen Sie aus dem Bauch heraus, die Stimme soll klar und kräftig sein",
+									["Hopp!", "Hock!", "Hott!"],
+  									["Hepp!", "Heck!", "Hett!"],
+  									["Hipp!", "Hick!", "Hitt!"],
+  									["Happ!", "Hack!", "Hatt!"],
+								"Wenn lhre Stimme gut trägt, lassen Sie die Konsonanten am Ende weg und rufen",
+									["Ho!", "Po!", "To!", "Ko!"],
+ 									["He!", "Pe!", "Te!", "Ke!"],
+									["HL!", "Pi!", "Ti!", "Ki!"],
+									["Ha!", "Pa!", "Ta!", "Ka!"],
+								"Sie können dabei den Ball auch gegen eine Wand werfen oder Boxstöße vom Körper wegführen",
+								"Halten Sie die Spannung, genießen Sie die Entspannung nach der Bewegung"
+							]
+				},
+				{ //5.4 Ü3
+				  "id": "SST_03",
+				  "ueberschrift": "Stimme - Stimmstärke",
+				  "umfang": "Übungen für die Stimmstärke",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen ermöglichen lhnen, eine kräftige Stimme aus dem Baüch heraus zu produzieren. Wenn Sie das nächste Mal rufen, holen Sie die Spannung aus dem Bauch.",
+								"erklaerung": "Stellen oder setzen Sie sich hin. Atmen Sie über den Bauch. Nehmen Sie einen (imaginären) Ball in die Hand. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Werfen Sie den Ball auf den Boden und rufen Sie dabei. Rufen Sie aus dem Bauch heraus, die Stimme soll klar und kräftig sein",
+									["Hier!", 	"Bleib!", 	"Still!", 	"Doch!"],
+									["Dort!",	"Komm!", 	"Stopp!", 	"Ja!"],
+									["Da!", 	"Sitz!", 	"Nicht!",	"Was?"],
+									["Weg!", 	"Platz!", 	"Nein!", 	"Wer?"],
+								"Wenn lhre Stimme gut trägt, versuchen Sie kurze Phrasen",
+									["Komm her!", 	"Sei still!",	"Was soll das?", 	"Ja, verrückt!"],
+									["Bleib da!", 	"Was ist?", 	"Wie geht's?", 		"Ja, freilich!"],
+									["Geh weg!", 	"So so!",  		"Halt still!", 		"Unbedingt!"],
+									["So nicht!", 	"Oh weh!", 		"Bleib stehen!", 	"Sehr gut!"],
+								"Sie dürfen auch schimpfen - manchmal hilft eine emotionale Komponente, um die Stimme voll auszunutzen",
+									["Donnerwetter!", 		"So geht das nicht!", 	"Ja geht's noch?", 	"Ich will das nicht!"],
+  									["Verflixt nochmal!", 	"So ein Scheiß!", 		"Was soll das?", 	"Mach das weg!"],
+  									["So ein Mist!", 		"So ein Schmarrn!", 	"Das ärgert mich!", "Verdammt und zugenäht!"]
+							]
+				},
+				{ //5.4 Ü4
+				  "id": "SST_04",
+				  "ueberschrift": "Stimme - Stimmstärke",
+				  "umfang": "Übungen für die Stimmstärke",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese übung ist insbesondere für Patient*innen mit Parkinson geeignet. Hier wird die Lautstärke trainiert. Die Übung ist einfach und sollte täglich mehrmals durchgeführt werden.Wichtig dabei ist, die Lautstärke zu halten. Die Tonhaltedauer beträgt in der Norm 15-20 Sekunden. Mit viel Übung lässt sie sich steigern.",
+								"erklaerung": "Stellen oder setzen Sie sich hin. Atmen Sie in den Bauch. Schultern sind locker. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Tönen Sie ein langes lautes 'Maaaaaa' und zwar so lange Sie können - halten Sie denTon mindestens 5 Sekunden lang",
+								"Wiederholen Sie das und halten Sie den Ton länger. Schauen Sie auf die Uhr - vielleicht schaffen Sie bereits 8 Sekunden",
+								"Bleiben Sie dabei laut!",
+								"lnsgesamt tönen Sie das 'Maaaa' 10-mal hintereinander; möglichst laut, möglichst lang - Ziel ist, den Ton mindestens 15 Sekunden lang laut halten zu können"
+								]
+				},
+			]
+		},
+
+        {
+		  "name": "Stimmumfang",
+		  "id": "STU",
+		  "uebungen": 
+			[
+				{ //5.5 Ü3
+				  "id": "STU_03",
+				  "ueberschrift": "Stimmumfang",
+				  "umfang": "Übungen für die Tonhöhenvariation",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen dienen dem Training der Stimmhöhenvariation. Zunächst ist es wichtig, dass die Stimme verschiedene Töne produzieren kann. Die Veränderung der Tonhöhe bedeutet eine andere Schwingungsfrequenz der Stimmlippen. Beginnen SIe vorsichtig und langsam und steigern Sie sich mit der Zeit.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Füße parallel, Schultern locker. Atmen Sie in den Bauch. Wiederholen Sie den Ablauf 5 mal.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Sprechen Sie folgende Frage-Antwort-Phrasen. Achten Sie auf den Tonhöhenwechsel: Frage - Stimme geht nach oben, Antwort - Stimme geht nach unten. "
+									["Wieso? - Nur so!"],
+                                    ["Wie? - Ach, so!"],
+                                    ["Wann? - Dann!"],
+                                    ["Wer? - Der!"],
+                                    ["Wo? - Da!"],
+                                    ["Wohin? - Dorthin!"],
+                                    ["Weshalb! - Deshalb!"],
+                                    ["Warum? - Darum!"],
+                                    ["Was denn? - Ach, das!"],
+                                    ["Ich? - Nie!"],
+                                    ["Du? - Nie und Nimmer!"],
+                                    ["So? - Genau so!"],
+                                    ["He? - He!"],
+                                    ["Ho? - Ho!"],
+                                    ["Hä? - Hä!"],
+                                    ["Oh? - Ah!"],
+                                    ["Ah? - Ah!"],
+                                    ["Aha? - Aha!"],
+                                    ["Oho? - Oho!"],
+                                    ["So? - Soso!"],
+                                    ["Ja? - Ja!"],
+                                    ["Nein? - Nein!"],
+                                    ["Da? - Da!"],
+                                    ["Dort? - Dort!"],
+                                    ["Hier? - Hier!"],
+                                    ["Jetzt? - Jetzt!"],
+                                    ["Bis wann? - Bis dann!"]
+								]
+				},
+            ]
+        },
+
+        {
+		  "name": "Stimmbandlähmung",
+		  "id": "SBL",
+		  "uebungen": 
+			[
+				{ //5.6 Ü1
+				  "id": "SBL_01",
+				  "ueberschrift": "Stimmbandübungen",
+				  "umfang": "Übungen für die Stimmbänder",
+				  "beschreibung": 
+								{
+								"hinweis": "Bei dieser Übung geht es darum, die Stimmbänder einander anzunähern. Durch den leichten Schwung und Druck gehen die Wand versuchen Sie den Druck auf die Stimmbänder zu geben. Nicht verzagen, wenn zu Beginn die Stimme noch sehr rau klingt und der Ton sich nicht lange halten lässt.",
+								"erklaerung": "Stellen Sie sich aufrecht hin, Füße hüftbreit auseinander, Arme hängen locker an der Seite.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Gehen Sie an die Wand, stellen Sie sich so weit weg, dass Sie mit gestreckten Armen die Wand berühren. Jetzt lassen Sie sich gegen die Wand fallen, dabei beugen Sie die Arme und fangen den Schwung ab. Während Sie lansam gegen die Wand fallen sprechen Sie gleichzeitig die Silben",
+                                    ["Paaah"],
+                                    ["Peeeh"],
+                                    ["Piiih"],
+                                    ["Poooh"],
+                                    ["Puuuh"],
+                                "Betonen Sie dabei den Vokal - spüren Sie, welcher Vokal sich angenehm anfühlt und welcher Vokal am meisten Ton enthält. Probieren Sie andere Lautkombinationen",
+									["Pa pe Pi Po Pu"],
+                                    ["Ba Be Bi Bo Bu"],
+                                    ["Ta Te Ti To Tu"],
+                                    ["Da De Di Do Du"],
+                                    ["Ka Ke Ki Ko Ku"],
+                                    ["Ga Ge Gi Go Gu"]
+								]
+				},
+                { //5.6 Ü2
+				  "id": "SBL_02",
+				  "ueberschrift": "Stimmbandübungen",
+				  "umfang": "Übungen für die Stimmbänder",
+				  "beschreibung": 
+								{
+								"hinweis": "Bei dieser Übung geht es darum, die Stimmbänder einander anzunähern. Durch den leichten Schwung und Druck gehen die Wand versuchen Sie den Druck auf die Stimmbänder zu geben. Nicht verzagen, wenn zu Beginn die Stimme noch sehr rau klingt und der Ton sich nicht lange halten lässt.",
+								"erklaerung": "Stellen Sie sich aufrecht hin, Füße hüftbreit auseinander, Arme hängen locker an der Seite.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Nehmen Sie zwei Flaschen/Hanteln/Keulen o.ä. in die Hände, fangen Sie lansam an, vor und zurück zu schwingen, mit jedem Schwung nach vorne sprechen Sie ein",
+                                    ["Paaah"],
+                                    ["Peeeh"],
+                                    ["Piiih"],
+                                    ["Poooh"],
+                                    ["Puuuh"],
+                                "Betonen Sie dabei den Vokal - spüren Sie, welcher Vokal sich angenehm anfühlt und welcher Vokal am meisten Ton enthält. Probieren Sie andere Lautkombinationen",
+									["Pa pe Pi Po Pu"],
+                                    ["Ba Be Bi Bo Bu"],
+                                    ["Ta Te Ti To Tu"],
+                                    ["Da De Di Do Du"],
+                                    ["Ka Ke Ki Ko Ku"],
+                                    ["Ga Ge Gi Go Gu"],
+                                "Sie können diese Übung auch im Sitzen probieren"
+								]
+				},
+                { //5.6 Ü3
+				  "id": "SBL_03",
+				  "ueberschrift": "Stimmbandübungen",
+				  "umfang": "Übungen für die Stimmbänder",
+				  "beschreibung": 
+								{
+								"hinweis": "Bei dieser Übung findet eine Zugbewegung statt, entweder von sich weg oder nach oben. Auch hierbei wird die Anspannung im Körper auf die Stimmbänder übertragen, um einen Stimmbandschluss zu erreichen.",
+								"erklaerung": "Setzen Sie sich auf einen Stuhl mit Armlehnen oder an die Bettkante. Schultern sind locker, Füße parallel am Boden.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Greifen Sie mit den Händen von unten an die Armlehnen bzw. die Bettkante. Übern Sie einen Zug nach oben aus, als wollten Sie die Armlehnen anheben. Dabei sprechen Sie gleichzeitig",
+                                    ["Paaah"],
+                                    ["Peeeh"],
+                                    ["Piiih"],
+                                    ["Poooh"],
+                                    ["Puuuh"],
+                                "Den Vokal in die Länge ziehen, so lange, wie Sie den Zug ausüben",
+                                "Machen Sie eine Pause und probieren Sie dann andere Lautkombinationen",
+									["Pa pe Pi Po Pu"],
+                                    ["Ba Be Bi Bo Bu"],
+                                    ["Ta Te Ti To Tu"],
+                                    ["Da De Di Do Du"],
+                                    ["Ka Ke Ki Ko Ku"],
+                                    ["Ga Ge Gi Go Gu"],
+								]
+				},
+                { //5.6 Ü4
+				  "id": "SBL_04",
+				  "ueberschrift": "Stimmbandübungen",
+				  "umfang": "Übungen für die Stimmbänder",
+				  "beschreibung": 
+								{
+								"hinweis": "Bei Stimmbandlähmungen kann man mit Druck oder Zug arbeiten. Finden Sie heraus, was Ihnen am besten liegt und bei welcher Übung Sie am meisten 'Ton' produzieren.",
+								"erklaerung": "Setzen oder stellen Sie sich hin. Nehmen Sie jeweils einen Tennisball, einen Gummiball oder ein kleines Kissen in die Hand. Lassen Sie die Schultern locker, die Füße sind parallel.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Drücken Sie nun mit beiden Händen fest in den Ball/das Kissen. Sobald Sie den Druck lösen, sprechen Sie",
+                                    ["Pah!"],
+                                    ["Peh!"],
+                                    ["Pih!"],
+                                    ["Poh!"],
+                                    ["Puh!"],
+                                "Mit dem Ausruf lösen Sie die Spannung. Probieren Sie andere Lautkombinationen",
+									["Pa pe Pi Po Pu"],
+                                    ["Ba Be Bi Bo Bu"],
+                                    ["Ta Te Ti To Tu"],
+                                    ["Da De Di Do Du"],
+                                    ["Ka Ke Ki Ko Ku"],
+                                    ["Ga Ge Gi Go Gu"],
+                                "Sie können auch einfach beide Hände auf die Oberschenkel drücken oder beide Hände gegeneinanderdrücken. Wichtig dabei ist, dass der Druck kurz gehalten wird, dann mit dem Ton lösen"
+								]
+				},
+            ]
+        },
+
+        {
+		  "name": "Kauen",
+		  "id": "KAU",
+		  "uebungen": 
+			[
+				{ //6.5
+				  "id": "KAU_01",
+				  "ueberschrift": "Kauübungen",
+				  "umfang": "Übungen für die Kaustimme",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen sollen den Vokaleinsatz möglichst nach vorne verlagern, damit die Resonanz im Mundraum ausgenutzt bzw. der Vokal sauber eingesetzt wird.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Tun Sie so, als ob Sie Kaugummi kauen würden, dabei dürfen Sie brummen und summen. Kauen Sie weiter und lesen die erste Zeile brummelnd vor. Schmatzen Sie genießend die zweite Zeile. Schlecken Sie aber der dritten Ueile zwischen den Silben immer wieder mit der Zungenspitze die Oberlippe ab (wie ein Chamäleon). Wiederholen Sie den Ablauf 5 mal.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+									["mjam", "mjom", "mjem", "mjum"],
+									["mjam, mjam, mjam", "mjem, mjem, mjem", "mjum, mjum, mjum", "mjom, mjom, mjom"],
+									["Num", "Num", "Num", "Num"],
+									["Nam", "Nam", "Nam", "Nam"],
+                                    ["Nom", "Nom", "Nom", "Nom"],
+                                    ["Nem", "Nem", "Nem", "Nem"],
+                                    ["Num", "Num", "Num", "Nummer"],
+                                    ["Nam", "Nam", "Nam", "Name"],
+                                    ["Nom", "Nom", "Nom", "Normen"]
+                                    ["Nem", "Nem", "Nem", "Nehmen"],
+                                    ["Name", "nehmen", "Nomen", "Nummer"],
+                                    ["Niemand", "Nebel", "Norden", "Nabel"]
+								]
+				},
+            ]
+        },
+        
+		{
+		  "name": "Resonanz",
+		  "id": "RES",
+		  "uebungen": 
+			[
+				{ //6.4 Ü1
+				  "id": "WEI_01",
+				  "ueberschrift": "Resonanz - Weitung",
+				  "umfang": "Übungen für die Weitung des Resonanzraums",
+				  "beschreibung": 
+								{
+								"hinweis": "Mit diesen Übungen werden die Resonanzräume geweitet, da Lippen, Wange und Zunge gelockert werden und sich entspannt im Mundraum 'zurücklehnen'",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+									["Pleuelübung: Lassen Sie Ihren Unterkiefer locker, legen Sie den vorderen Zungenrand hinter die unteren Schneidezähne, der Unterkiefer bleibt ruhig, während Sie die Zunge vor- und zurückfedern lassen."],
+									["Lippenvibration: Die Lippen sind locker geschlossen, bei der AUsatmung versetzen Sie sie in Vibrationen - auch 'Lippenflattern', 'Pferdeschnauben, oder 'Kutscher-R' genannt: 'BRRR!'"],
+									["Versuchen Sie die Lippenvibration auf einem Ton, gleiten Sie rauf und runter"],
+									["Summen: Versuchen Sie ein ganz entspanntes 'Mmmm' zu summen - die Lippen berühren sich gerade noch so, alles vibriert und kitzelt - denken Sie an etwas Leckeres zu essen!"],
+									["Lippenblähen: Die Lippen sind Locker geschlossen, die Zunge liegt am unteren Zahnrand, die Wangen werden leicht aufgebläht und es entsteht ein weiches 'b, b, b'"],
+									["Aus dem weichen 'b' wird ein: 'mbum, mbum, mbum' - 'mbam, mbam, mbam' - 'mbem, mbem, mbem'"],
+                                    ["Machen Sie weiter mit: 'mbum, bum, bummel, bummeln' - 'mbam, bam, bammel, bammeln' - 'mbom, bom, bommel, bommeln'"]
+								]
+				},
+
+                { //6.4 Ü2
+				  "id": "WEI_02",
+				  "ueberschrift": "Resonanz - Weitung",
+				  "umfang": "Übungen für die Weitung des Resonanzraums",
+				  "beschreibung": 
+								{
+								"hinweis": "Mit diesen Übungen werden die Resonanzräume geweitet, da Lippen, Wange und Zunge gelockert werden und sich entspannt im Mundraum 'zurücklehnen'",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Jede Übung 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Die Wangen bleiben locker gebläht, die Lippen liegen leicht aufeinanderm sprechen Sie die Silben hintereinander mit der Betonung auf der letzten Silbe:",
+									["M bu bu bu Bu!"],
+                                    ["M ba ba ba Ba!"],
+                                    ["M bo bo bo Bo!"],
+                                    ["M be be be Be!"],
+                                    ["M bi bi bi Bi!"],
+								"Sprechen Sie folgende Wörter locker, mit Lippelnblähen vorausgehend:",
+									["Bambi - Bahn - Baden - Ballade"],
+									["Bombe - Bohne - Bolzen - Bollwerk"],
+                                    ["Bembel - Bellen - Besen - Bersten"],
+                                    ["bummeln - Bude - Buxtehude - Buche"],
+                                    ["Mantel - Mandel - malen - machen - Malaga"],
+                                    ["Miete - Mine - Mieze - Minne"],
+                                "Sprechen Sie folgende Sätze:",
+                                    ["Bambi wartet auf seine Mami"],
+                                    ["Bald brüten die Bantamhühner"],
+                                    ["Bolle bietet neue blaue Hemden an"],
+                                    ["Martin malt lauter bunte Bilder"],
+                                    ["Blau blüht das Band der Blumen"]
+								]
+				},
+
+                { //6.6 Ü1
+				  "id": "VOK_01",
+				  "ueberschrift": "Resonanz - Vokaleinsatz",
+				  "umfang": "Übungen für den Vokaleinsatz",
+				  "beschreibung": 
+								{
+								"hinweis": "Diese Übungen sollen den Vokaleinsatz möglichst nach vorne verlagern, damit die Resonanz im Mundraum ausgenutzt bzw. der Vokal sauber eingesetzt wird.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Sprechen Sie die Silben so, dass Sie am Beginn sehr deutlich artikulieren. Lesen Sie die Zeilen zunächst waagrecht, dann senkrecht. Sprechen Sie dann jede Silbe auf eine Ausatmung, verlängern Sie den Vokal am Ende. Jede Zeile mit jeweils 5 Wiederholungen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+									["me", "mi", "mü", "mö", "mu", "mo", "ma", "meu", "mei", "mau"],
+									["be", "bi", "bü", "bö", "bu", "bo", "ba", "beu", "bei", "bau"],
+									["we", "wi", "wü", "wö", "wu", "wo", "wa", "weu", "wei", "wau"],
+									["ne", "ni", "nü", "nö", "nu", "no", "na", "neu", "nei", "nau"],
+									["de", "di", "dü", "dö", "du", "do", "da", "deu", "dei", "dau"],
+									["le", "li", "lü", "lö", "lu", "lo", "la", "leu", "lei", "lau"]
+								]
+				},
+				{ //6.6 Ü2
+				  "id": "VOK_02",
+				  "ueberschrift": "Resonanz - Vokaleinsatz",
+				  "umfang": "Übungen für den Vokaleinsatz",
+				  "beschreibung": 
+								{
+								"hinweis": "Auch bei diesen Wörtern wird der Stimmeinsatz nach vorne verlagert, die stimmhaften Anfangslaute verstärkt.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Sprechen Sie die Wörter langsam und deutlich. Lesen Sie die Zeilen zunächst waagrecht, dann senkrecht mit jeweils 5 Wiederholungen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+									["wagen", "Wogen", "wegen", "wöhnen", "wähnen", "wuchern", "wiesen", "wühlen"],
+									["mahnen", "mogeln", "mehlen", "mögen", "mähen", "muhen", "Miene", "Mühle"],
+									["Namen", "Nomen", "nehmen", "nöhlen", "nähmen", "nutzen", "niesen", "Nüstern"],
+									["lahmen", "lohnen", "Lehm", "löten", "lähmen", "Lusen", "lieben", "lügen"],
+									["Samen", "Sohn", "sehen", "Söhne", "säen", "suhlen", "sieben", "süssen"],
+									["jagen", "johlen", "Jemen", "jöhlen", "jäten", "Jute", "jiepen", "Jüdin"],
+									["haben", "hohlen", "heben", "Höhlen", "Häme", "hupen", "hiepen", "hüten"]
+								]
+				},
+				{ //6.7 Ü1
+				  "id": "NOR_01",
+				  "ueberschrift": "Resonanz - Nasal-orale Lautbildung",
+				  "umfang": "Übungen für die Nasal-orale Lautbildung",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen dazu, den Wechsel zwischen Lauten, die über den Mundraum (oral) und über den Nasenraum (nasal) gebildet werden, zu trainieren. Hierbei muss sich das Gaumensegel im Wechsel öffnen und schließen.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Jede Zeile 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Sprechen Sie die folgenden Silben paarweise, achten Sie dabei auf eine saubere Aussprache des Anfangslauts.",
+									["ba - ma", "ma - ba", "da - na", "na - de"],
+									["be - me", "me - be", "de - ne", "ne - de"],
+									["bi - mi", "mi - bi", "de - ni", "ni - di"],
+									["bo - mo", "mo - bo", "do - no", "no - do"],
+									["bu - mu", "mu - bu", "du - nu", "nu - du"],
+									["bau - mau", "mau - bau", "dau - nau", "nau - dau"],
+									["bei - mei", "mei - bei", "dei - nei", "nei - dei"],
+									["beu - meu", "meu - beu", "deu - neu", "neu - deu"],
+                                "Sprechen Sie folgende Wortpaare genauso deutlich",
+									["Bann - Mann", "Mast - Bast", "dass - Nass", "nah - da"],
+									["Bein - mein", "Met - Beet", "denn - Nenn'", "nett - det"],
+									["Bier - mir", "Mist - bist", "die - Nie", "Nil - Deal"],
+									["Bord - Mord", "Mond - Bond", "dort - Nord", "Nord - dort"],
+									["Bumm - Mumm", "Mus - Buß", "Du - Nu", "Nu - Du"],
+									["baut - Maut", "Maut - baut", "dein - nein", "Neid - Deit"]
+								]
+				},
+				{ //6.7 Ü2
+				  "id": "NOR_02",
+				  "ueberschrift": "Resonanz - Nasal-orale Lautbildung",
+				  "umfang": "Übungen für die Nasal-orale Lautbildung",
+				  "beschreibung": 
+								{
+								"hinweis": "Die Übungen dienen dazu, den Wechsel zwischen Lauten, die über den Mundraum (oral) und über den Nasenraum (nasal) gebildet werden, zu trainieren. Beim Flüstern brauchen wir das Öffnen und Schließen des Gaumensegels.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Sprechen Sie langsam und laut. Jede Zeile 5-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Sprechen Sie langsam und laut",
+                                    ["Lampe", "Rampe", "Ampel", "Pampe"],
+                                    ["Hemd", "verklemmt", "gehemmt", "brennt"],
+                                    ["Zimt", "Rind", "Kind", "finden"],
+                                    ["simpel", "Wimpel", "Gimpel", "Pimpel"],
+                                    ["Bombe", "Plombe", "Rombus", "Ombud"],
+                                    ["Mund", "Wund", "Hund", "Grund"],
+                                    ["Lump", "Plump", "Schund", "Fund"],
+                                    ["Feind", "greint", "geleimt", "vereint"],
+                                    ["Freund", "verleumt", "staunt", "raunt"] 
+                                "Flüstern Sie",                                    
+                                    ["Alpen", "Welpen", "Kumpel", "Wimpel"],
+                                    ["Marke", "Ferkel", "Birke", "Forke"],
+                                    ["Falke", "Nelke", "Wolke", "ulkig"],
+                                    ["Dank", "Zank", "Bank", "krank"],
+                                    ["Starter", "Körper", "Erpel", "Gurke"],
+                                    ["Hand", "Sand", "Rand", "Wand"],
+                                    ["Wind", "Kund", "sind", "Rind"],
+                                    ["Hund", "gesund", "Grund", "Schund"]                                    
+								]
+				},
+                { //6.7 Ü3
+				  "id": "NOR_03",
+				  "ueberschrift": "Resonanz - Nasal-orale Lautbildung",
+				  "umfang": "Übungen für die Nasal-orale Lautbildung",
+				  "beschreibung": 
+								{
+								"hinweis": "In diesen Wörtern ist gezielt ein nasal-oral Wechsel eingebaut. Gerade, wenn man sie langsam spricht, wird er sehr deutlich und bewusst.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Jedes Wort 3-mal wiederholen.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                "Sprechen Sie folgende Wörter langsam und deutlich, genießen Sie die Verbindung der Laute.",
+                                "Lesen Sie zunächst vertikal dann horizontal",
+                                    ["Planke", "Enkel", "Winkel", "Onkel", "Funker"],
+                                    ["Danke", "Senke", "Imker", "Forke", "Funken"],
+                                    ["Tanker", "Nelke", "Birke", "Folter", "dunkel"],
+                                    ["Marke", "Ferkel", "Zink", "borgt", "Schurke"],
+                                    ["Amt", "hemmt", "stimmt", "kommt", "summt"],
+                                    ["zankt", "denkt", "winkt", "unkt", "bongt"],
+                                    ["Falke", "Elke", "Wilke", "Wolke", "ulkte"],
+                                    ["strampeln", "krempeln", "Wimpel", "Stolpern", "Tulpe"],
+                                    ["Ampel", "Tempel", "Gimpel", "Bompel", "Kumpel"],
+                                    ["Quark", "Zwerg", "wirkt", "sorgt", "Burg"],
+                                "Flüstern Sie diese Worte",
+                                "Sprechen Sie diese Wörter laut und leise im Wechsel bei der dritten Wiederholung"
+								]
+				},
+                { //6.7 Ü4
+				  "id": "NOR_04",
+				  "ueberschrift": "Resonanz - Nasal-orale Lautbildung",
+				  "umfang": "Übungen für die Nasal-orale Lautbildung",
+				  "beschreibung": 
+								{
+								"hinweis": "In diesen Wörtern ist gezielt ein nasal-oral Wechsel eingebaut. Gerade, wenn man sie langsam spricht, wird er sehr deutlich und bewusst.",
+								"erklaerung": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Sprechen Sie die Laute "M", "N", und "NG" zunächst immer im Wechsel. Bei der zweiten Wiederholung gleiten Sie mit der Stimme nach oben. Bei der dritten Wiederholung gleiten Sie mit der Stimme nach unten.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+                                    ["M", "N", "NG"],
+                                    ["M", "N", "NG"],
+                                    ["M", "N", "NG"]
+								]
+				}
+			]
+		},
+
+		{
+		  "name": "Sprechen",
+		  "id": "SPR",
+		  "uebungen": 
+			[
+				{
+				  "id": "LBE",
+				  "ueberschrift": "Sprechen - Lautbildung erste Artikulationszone",
+				  "umfang": "Übungen - Lautbildung erste Artikulationszone (plosive /p/, /b/)",
+				  "beschreibung": 
+								{
+								"hinweis": " ",
+								"erklaerung": "Lockern Sie den Unterkiefer und die Lippen. Betonen Sie die Plosive /t/ und /d/ in diesen Wörtern. Sprechen Sie langsam und deutlich.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion":[
+								"Bulle - Pulle", 
+								"Bube - Puppe", 
+								"Bude - Pute",
+								"Bogen - Pocken",
+								"Bohle - Pole",
+								"Bohren - Poren",
+								"bellen - Pellen",
+								"Binde - Pinte", 
+								"Bass - Pass",
+								"Bar - Paar",
+								"Backen - Packen",
+								"Baden - Paten",
+								"Braten - Prater",
+								"Brise - Prise", 
+								"Bader - Pater",
+								"Bein - Pein",
+								"Blatt - Platt",
+								"Hiebe - Hippe",
+								"Siebe - Sippe",
+								"Ober - Oper", 
+								"haben - Happen",
+								"laben - Lappen",
+								"Gabe - Kappe",
+								"Rabe - Rappe",
+								"Stäbe - Steppe",
+								"Stäbe - Steppe", 
+								"Gepäck - Gebäck",
+								"Waben - Wappen",
+								"Knabe - Knappe",
+								"Rauben - Raupe",
+								]
+				},
+				{
+				  "id": "LBZ",
+				  "ueberschrift": "Sprechen - Lautbildung zweite Artikulationszone",
+				  "umfang": "Übungen - Lautbildung zweite Artikulationszone (plosive /t/, /d/)",
+				  "beschreibung": 
+								{
+								"hinweis": " ",
+								"erklaerung": "Lockern Sie den Unterkiefer und die Lippen. Betonen Sie die Plosive /t/ und /d/ in diesen Wörtern. Sprechen Sie langsam und deutlich.",
+								"mp3": "pfad/zur/datei.mp3"
+								},
+				  "grafik": "pfad/zur/graphik.png",
+				  "aktion": [
+								"Dusche - Tusche", 
+								"Du - Tu", 
+								"Dom - Tom",
+								"Dose - Tosen",
+								"Dolde - Tollte",
+								"Dill - Till",
+								"Dohle - Tolle",
+								"Dicken - ticken", 
+								"Dante - Tante",
+								"Dank - Tank",
+								"Deich - Teich",
+								"Dorf - Torf",
+								"der - Teer",
+								"Dir - Tier", 
+								"Dritte - Tritte",
+								"drüben - trüben",
+								"Fuder - Futter",
+								"Bode - Boten",
+								"Roden - Rotten",
+								"Mode - Motte", 
+								"weder - Wetter",
+								"reden - retten",
+								"Feder - Vetter",
+								"Lieder - Liter",
+								"sieden - Sitten",
+								"Köder - Köter", 
+								"Lade - Latte",
+								"leider - Leiter",
+								"Leiden - leiten",
+								"Seide - Seite",
+								"Mandel - Mantel",
+								"Ende - Ente",
+								]
+				},
+			]
+		},
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Vue Container",
+  "dockerComposeFile": ["../../compose.yml"],
+  "service": "vue-app",
+  "shutdownAction": "none",
+  "workspaceFolder": "/app",
+  "containerEnv": {
+    "HTTP_PROXY": "${localEnv:HTTP_PROXY}",
+    "HTTPS_PROXY": "${localEnv:HTTPS_PROXY}",
+    "NO_PROXY": "${localEnv:NO_PROXY}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "vue.volar",
+        "github.copilot"
+      ]}}
+}

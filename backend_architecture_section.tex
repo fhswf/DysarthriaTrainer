@@ -1,0 +1,145 @@
+\subsection{Backend Architecture}
+\label{subsec:backend-architecture}
+
+The backend infrastructure of the speech training application implements a modular, scalable architecture based on Clean Architecture principles \cite{martin2017clean}. The system is designed to facilitate real-time speech analysis through AI-powered inference while maintaining strict separation of concerns and testability.
+
+\subsubsection{Technology Stack}
+
+The backend is implemented using modern, production-ready technologies optimized for high-performance real-time processing:
+
+\begin{itemize}
+    \item \textbf{Framework:} FastAPI (Python 3.13) -- asynchronous REST API framework with automatic OpenAPI documentation and native WebSocket support
+    \item \textbf{Database:} PostgreSQL 17 with TimescaleDB extension -- providing time-series optimization for session and performance tracking data
+    \item \textbf{Containerization:} Docker Compose -- ensuring consistent development and deployment environments with hot-reload capabilities
+    \item \textbf{AI/ML Frameworks:} PyTorch and Transformers library -- for custom phoneme recognition models and automatic speech recognition (ASR)
+    \item \textbf{Audio Processing:} Faster-Whisper -- optimized OpenAI Whisper implementation for real-time speech-to-text transcription
+\end{itemize}
+
+\subsubsection{Architectural Design}
+
+The backend follows the Clean Architecture (Hexagonal Architecture) pattern \cite{cockburn2005hexagonal}, enforcing strict dependency inversion and separation of business logic from infrastructure concerns. This design ensures maintainability, testability, and adaptability to changing requirements.
+
+The architecture is organized into four distinct layers with unidirectional dependencies flowing inward toward the domain core (Figure \ref{fig:backend-architecture}):
+
+\begin{description}
+    \item[Domain Layer (Core):] Contains enterprise business rules, domain entities (e.g., \texttt{User}, \texttt{Exercise}, \texttt{PracticeSession}), value objects, and port interfaces defining contracts for external dependencies. This layer has zero external dependencies.
+    
+    \item[Application Layer:] Implements use case orchestration and application-specific business rules through service classes. Services coordinate domain entities and interact with infrastructure through port interfaces defined in the domain layer.
+    
+    \item[Infrastructure Layer:] Provides concrete implementations of domain ports, including:
+    \begin{itemize}
+        \item Database persistence via SQLAlchemy ORM repositories
+        \item AI model adapters for phoneme recognition and ASR
+        \item Audio preprocessing components
+        \item External service integrations
+    \end{itemize}
+    
+    \item[API Layer (Presentation):] Exposes REST endpoints and WebSocket connections through FastAPI routers. Request/response transformation is handled by Pydantic schemas, with dependency injection managing service instantiation.
+\end{description}
+
+\subsubsection{AI Model Integration}
+
+The system integrates custom-trained transformer-based models for speech analysis through a flexible adapter pattern. The domain layer defines an \texttt{IASRService} interface, with concrete implementations in the infrastructure layer:
+
+\begin{itemize}
+    \item \textbf{Phoneme Recognition:} Custom Transformer-CTC models trained for German phoneme sequences, enabling fine-grained pronunciation analysis
+    \item \textbf{Automatic Speech Recognition:} Faster-Whisper adapter for OpenAI Whisper models, providing word-level transcription with timestamps
+    \item \textbf{Audio Preprocessing:} Standardized pipeline for audio normalization, resampling, and feature extraction
+\end{itemize}
+
+Models are loaded at application startup and accessed through dependency injection, ensuring efficient resource utilization and simplified testing through mock implementations.
+
+\subsubsection{Real-Time WebSocket Communication}
+
+Speech analysis requires real-time progress feedback during long-running inference tasks. The system implements a WebSocket-based communication layer for bidirectional client-server interaction:
+
+\begin{enumerate}
+    \item Client initiates analysis via REST POST request to \texttt{/api/v1/analyze/sessions/\{id\}}
+    \item Server responds with WebSocket connection URL and immediately starts background processing
+    \item Client establishes WebSocket connection to \texttt{/api/v1/analyze/ws/sessions/\{id\}}
+    \item Server streams progress updates (percentage, current item, intermediate results) in JSON format
+    \item Upon completion, server sends final results and closes connection
+\end{enumerate}
+
+The \texttt{ConnectionManager} component handles WebSocket lifecycle, supporting group-based broadcasting for multi-user scenarios and automatic cleanup on disconnection. Authentication is enforced through JWT tokens passed in the WebSocket handshake headers.
+
+\begin{figure*}[t]
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    layer/.style={rectangle, draw, thick, minimum width=3.5cm, minimum height=1cm, align=center, fill=blue!10},
+    component/.style={rectangle, draw, minimum width=3cm, minimum height=0.7cm, align=center, fill=white},
+    arrow/.style={->, thick, >=stealth},
+    label/.style={font=\small\bfseries}
+]
+
+% Layers (from top to bottom)
+\node[layer, minimum width=12cm] (api) {\textbf{API Layer (Presentation)}\\FastAPI Routers, WebSocket Handlers};
+\node[layer, minimum width=12cm, below=of api] (app) {\textbf{Application Layer}\\Use Case Services, Business Logic};
+\node[layer, minimum width=12cm, below=of app] (core) {\textbf{Domain Layer (Core)}\\Entities, Value Objects, Port Interfaces};
+\node[layer, minimum width=12cm, below=of core] (infra) {\textbf{Infrastructure Layer}\\Repository Implementations, AI Model Adapters};
+
+% Infrastructure components (below infra layer)
+\node[component, below left=0.8cm and -2cm of infra] (db) {PostgreSQL\\TimescaleDB};
+\node[component, below=0.8cm of infra] (models) {AI Models\\Phoneme/ASR};
+\node[component, below right=0.8cm and -2cm of infra] (storage) {File Storage\\Media};
+
+% External clients (above API layer)
+\node[component, above=0.8cm of api] (client) {Web Client\\Vue.js};
+
+% Arrows - Dependency flow
+\draw[arrow] (api) -- (app) node[midway, right, font=\footnotesize] {uses};
+\draw[arrow] (app) -- (core) node[midway, right, font=\footnotesize] {uses};
+\draw[arrow] (infra) -- (core) node[midway, right, font=\footnotesize] {implements};
+\draw[arrow] (api) -- (core);
+
+% Infrastructure connections
+\draw[arrow] (infra) -- (db);
+\draw[arrow] (infra) -- (models);
+\draw[arrow] (infra) -- (storage);
+
+% Client connections
+\draw[arrow, <->, red, thick] (client) -- (api) node[midway, right, font=\footnotesize, text=red] {REST/WS};
+
+% Side annotations
+\node[label, right=2.5cm of app, text width=3.5cm] (di) {Dependency\\Injection\\Container};
+\node[label, right=2.5cm of core, text width=3.5cm] (ports) {Port Interfaces\\(Abstractions)};
+
+% Dependency injection arrow
+\draw[arrow, dashed, blue] (di) -- (app);
+\draw[arrow, dashed, blue] (di) -- (api);
+
+% Key components detail (right side)
+\node[component, right=5.5cm of api, minimum width=4cm, fill=red!10] (ws) {WebSocket\\Connection Manager};
+\node[component, below=0.5cm of ws, minimum width=4cm, fill=green!10] (jwt) {JWT Authentication\\Middleware};
+\node[component, below=0.5cm of jwt, minimum width=4cm, fill=yellow!10] (asr) {ASR Service\\Interface};
+
+\draw[arrow, dashed] (api) -- (ws);
+\draw[arrow, dashed] (api) -- (jwt);
+\draw[arrow, dashed] (infra) -- (asr);
+
+% Legend
+\node[below=2.5cm of db, font=\footnotesize, text width=11cm, align=left] (legend) {
+    \textbf{Dependency Direction:} Infrastructure/API $\rightarrow$ Application $\rightarrow$ Domain Core\\
+    \textbf{Communication:} \textcolor{red}{Synchronous REST \& Asynchronous WebSocket}
+};
+
+\end{tikzpicture}
+\end{adjustbox}
+\caption{Backend architecture following Clean Architecture principles with layer separation and dependency inversion. The WebSocket connection manager enables real-time AI inference progress updates.}
+\label{fig:backend-architecture}
+\end{figure*}
+
+\subsubsection{Deployment and Development Workflow}
+
+The entire backend infrastructure runs within Docker containers, ensuring environment consistency across development, testing, and production. Key deployment characteristics include:
+
+\begin{itemize}
+    \item \textbf{Hot-reload:} Source code changes trigger automatic service restart without container rebuilds
+    \item \textbf{Database Migrations:} Alembic manages schema versioning with automatic migration generation
+    \item \textbf{Testing:} Isolated test database instances with pytest-based unit, integration, and performance tests
+    \item \textbf{API Documentation:} Automatic OpenAPI/Swagger documentation at \texttt{/docs} endpoint
+\end{itemize}
+
+All backend operations (migrations, tests, shell access) execute within the containerized environment using \texttt{docker compose exec}, eliminating dependency conflicts and ensuring reproducible builds.

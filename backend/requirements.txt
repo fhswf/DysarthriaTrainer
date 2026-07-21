@@ -1,0 +1,37 @@
+fastapi[standard]
+uvicorn[standard]
+websockets
+pydantic-settings
+
+alembic
+sqlalchemy[asyncio]
+asyncpg
+psycopg2-binary  # For sync database operations in tests (database creation)
+
+python-dotenv
+bcrypt==4.0.1
+passlib[bcrypt]
+PyJWT==2.8.0
+cryptography==41.0.7  # Required for RS256 JWT signing
+
+# phoneme recognition
+librosa
+torch==2.6.0
+torchaudio==2.6.0
+transformers
+
+# Audio processing & transcription
+faster-whisper>=0.10.0
+noisereduce>=3.0
+scipy>=1.11
+pydub>=0.25
+soundfile>=0.12
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+
+# Async file operations
+aiofiles==23.2.1

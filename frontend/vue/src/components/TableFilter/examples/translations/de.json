@@ -1,0 +1,64 @@
+{
+  "employees": {
+    "filters": {
+      "dialogTitle": "Mitarbeiter filtern",
+      "apply": "Filter anwenden",
+      "cancel": "Abbrechen",
+      "clear": "Alle löschen",
+      "customFilters": "Benutzerdefinierte Filter",
+      
+      "presets": {
+        "all": "Alle Mitarbeiter",
+        "allDescription": "Zeige alle Mitarbeiter unabhängig vom Status",
+        "active": "Nur Aktive",
+        "activeDescription": "Zeige nur aktive Mitarbeiter",
+        "inactive": "Nur Inaktive",
+        "inactiveDescription": "Zeige nur inaktive Mitarbeiter",
+        "fulltime": "Vollzeit Aktive",
+        "fulltimeDescription": "Zeige nur aktive Vollzeitmitarbeiter",
+        "recent": "Kürzlich Eingestellt",
+        "recentDescription": "Zeige Mitarbeiter, die in den letzten 6 Monaten eingestellt wurden"
+      },
+      
+      "quickPresets": {
+        "today": "Heute angemeldet",
+        "thisWeek": "Diese Woche angemeldet",
+        "thisMonth": "Diesen Monat angemeldet",
+        "clearDates": "Datumsfilter löschen"
+      },
+      
+      "fields": {
+        "name": "Name",
+        "namePlaceholder": "Mitarbeitername eingeben...",
+        "email": "E-Mail",
+        "emailPlaceholder": "E-Mail-Adresse eingeben...",
+        "employeeId": "Mitarbeiter-ID",
+        "employeeIdPlaceholder": "Mitarbeiter-ID eingeben...",
+        "isActive": "Aktiv",
+        "employmentStatus": "Beschäftigungsstatus",
+        "employmentStatusPlaceholder": "Status auswählen...",
+        "department": "Abteilung",
+        "departmentPlaceholder": "Abteilung auswählen...",
+        "location": "Standort",
+        "locationPlaceholder": "Standort auswählen...",
+        "hireDate": "Einstellungsdatum Bereich",
+        "lastLogin": "Letzte Anmeldung Bereich",
+        "minSalary": "Min. Gehalt",
+        "maxSalary": "Max. Gehalt",
+        "salaryPlaceholder": "Betrag eingeben...",
+        "minAge": "Min. Alter",
+        "minAgePlaceholder": "Mindestalter eingeben...",
+        "maxAge": "Max. Alter",
+        "maxAgePlaceholder": "Höchstalter eingeben..."
+      },
+      
+      "groups": {
+        "status": "Status",
+        "location": "Standort & Abteilung",
+        "dates": "Datumsfilter",
+        "compensation": "Vergütung",
+        "demographics": "Demografische Daten"
+      }
+    }
+  }
+}

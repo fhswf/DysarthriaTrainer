@@ -1,0 +1,406 @@
+{
+  "id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+  "category_id": "993d943f-69a3-4bb9-8230-7a7580e8364c",
+  "code": "KAU_01",
+  "title": "Kauübungen",
+  "subtitle": "Übungen für die Kaustimme",
+  "scope": null,
+  "difficulty_level": "beginner",
+  "estimated_duration_minutes": 10,
+  "display_order": 0,
+  "version": 1,
+  "is_active": true,
+  "superseded_by": null,
+  "created_at": "2025-11-30T19:13:31.228580Z",
+  "updated_at": "2025-11-30T19:13:31.228580Z",
+  "deleted_at": null,
+  "created_by": null,
+  "deleted_by": null,
+  "instructions": [
+    {
+      "id": "67179610-22f4-4941-a832-2bc72cc04de1",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "language": "de",
+      "hint_text": "Diese Übungen sollen den Vokaleinsatz möglichst nach vorne verlagern, damit die Resonanz im Mundraum ausgenutzt bzw. der Vokal sauber eingesetzt wird.",
+      "explanation_text": "Setzen Sie sich aufrecht hin, Schultern locker, Füße parallel. Tun Sie so, als ob Sie Kaugummi kauen würden, dabei dürfen Sie brummen und summen. Kauen Sie weiter und lesen die erste Zeile brummelnd vor. Schmatzen Sie genießend die zweite Zeile. Schlecken Sie aber der dritten Ueile zwischen den Silben immer wieder mit der Zungenspitze die Oberlippe ab (wie ein Chamäleon). Wiederholen Sie den Ablauf 5 mal.",
+      "safety_notes": null,
+      "audio_instruction_url": null,
+      "image_url": null,
+      "display_order": 0,
+      "created_at": "2025-11-30T19:13:31.229408Z",
+      "updated_at": "2025-11-30T19:13:31.229409Z"
+    }
+  ],
+  "category": {
+    "id": "993d943f-69a3-4bb9-8230-7a7580e8364c",
+    "name": "Kauen",
+    "slug": "kauen",
+    "description": "Exercises for Kauen",
+    "display_order": 5,
+    "created_at": "2025-11-30T19:13:31.154036Z",
+    "updated_at": "2025-11-30T19:13:31.154036Z",
+    "deleted_at": null
+  },
+  "items": [
+    {
+      "id": "7171963d-6902-42eb-ab40-636cba61dfec",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 0,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "4fab3c95-5181-47b9-8696-c543dcacfbd4",
+          "item_id": "7171963d-6902-42eb-ab40-636cba61dfec",
+          "language": "de",
+          "text_content": "mjam, mjom, mjem, mjum",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236368Z",
+          "updated_at": "2025-11-30T19:13:31.236368Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230618Z",
+      "updated_at": "2025-11-30T19:13:31.230618Z"
+    },
+    {
+      "id": "c1266930-6d27-4a52-9643-074744344eaf",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "sentence",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 1,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "0c853a27-332f-4d3d-8a48-87aa816832f8",
+          "item_id": "c1266930-6d27-4a52-9643-074744344eaf",
+          "language": "de",
+          "text_content": "mjam, mjam, mjam, mjem, mjem, mjem, mjum, mjum, mjum, mjom, mjom, mjom",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236368Z",
+          "updated_at": "2025-11-30T19:13:31.236369Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230618Z",
+      "updated_at": "2025-11-30T19:13:31.230619Z"
+    },
+    {
+      "id": "4553c42b-ce13-4432-91e6-7beabad7ec97",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 2,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "77cf6fc7-0937-4614-b46d-fac40fc755ae",
+          "item_id": "4553c42b-ce13-4432-91e6-7beabad7ec97",
+          "language": "de",
+          "text_content": "Num, Num, Num, Num",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236369Z",
+          "updated_at": "2025-11-30T19:13:31.236369Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230619Z",
+      "updated_at": "2025-11-30T19:13:31.230619Z"
+    },
+    {
+      "id": "a24c7f7a-f6e9-4584-a8df-8f4c3ab75c6c",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 3,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "89ae73c2-d76d-4ade-86b7-7cf03fccc1d8",
+          "item_id": "a24c7f7a-f6e9-4584-a8df-8f4c3ab75c6c",
+          "language": "de",
+          "text_content": "Nam, Nam, Nam, Nam",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236369Z",
+          "updated_at": "2025-11-30T19:13:31.236370Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230619Z",
+      "updated_at": "2025-11-30T19:13:31.230620Z"
+    },
+    {
+      "id": "e1376744-1c6e-4a63-9e6c-160d1a90386c",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 4,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "ed5d5a36-d449-4905-a3b9-e5e7c93daa0b",
+          "item_id": "e1376744-1c6e-4a63-9e6c-160d1a90386c",
+          "language": "de",
+          "text_content": "Nom, Nom, Nom, Nom",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236370Z",
+          "updated_at": "2025-11-30T19:13:31.236370Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230620Z",
+      "updated_at": "2025-11-30T19:13:31.230620Z"
+    },
+    {
+      "id": "dd849691-06d4-419e-9163-400f3c25704b",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 5,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "03062ce1-ffa0-431d-8c73-f1640daa2048",
+          "item_id": "dd849691-06d4-419e-9163-400f3c25704b",
+          "language": "de",
+          "text_content": "Nem, Nem, Nem, Nem",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236370Z",
+          "updated_at": "2025-11-30T19:13:31.236371Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230620Z",
+      "updated_at": "2025-11-30T19:13:31.230621Z"
+    },
+    {
+      "id": "c204b4d6-e619-4c28-bf3f-167de00df1c7",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 6,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "a04de596-e8df-4518-877f-a67f319ef236",
+          "item_id": "c204b4d6-e619-4c28-bf3f-167de00df1c7",
+          "language": "de",
+          "text_content": "Num, Num, Num, Nummer",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236371Z",
+          "updated_at": "2025-11-30T19:13:31.236371Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230621Z",
+      "updated_at": "2025-11-30T19:13:31.230621Z"
+    },
+    {
+      "id": "921c1be5-0f39-4d43-a1f3-7b643820fb47",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 7,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "e215ca86-20a0-4d4e-9691-d56ad83dfa12",
+          "item_id": "921c1be5-0f39-4d43-a1f3-7b643820fb47",
+          "language": "de",
+          "text_content": "Nam, Nam, Nam, Name",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236371Z",
+          "updated_at": "2025-11-30T19:13:31.236372Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230621Z",
+      "updated_at": "2025-11-30T19:13:31.230622Z"
+    },
+    {
+      "id": "7ce611de-8177-4e07-88bc-d1e4a6a4762e",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 8,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "5997bf3a-b2fe-41a4-a5e5-2a9fc7e5a05f",
+          "item_id": "7ce611de-8177-4e07-88bc-d1e4a6a4762e",
+          "language": "de",
+          "text_content": "Nom, Nom, Nom, Normen",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236372Z",
+          "updated_at": "2025-11-30T19:13:31.236372Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230622Z",
+      "updated_at": "2025-11-30T19:13:31.230622Z"
+    },
+    {
+      "id": "6621aeb3-1831-4f0d-a068-c98d91a5eb15",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 9,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "cd2e120e-0d00-4460-8602-c9fa462e912d",
+          "item_id": "6621aeb3-1831-4f0d-a068-c98d91a5eb15",
+          "language": "de",
+          "text_content": "Nem, Nem, Nem, Nehmen",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236372Z",
+          "updated_at": "2025-11-30T19:13:31.236373Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230623Z",
+      "updated_at": "2025-11-30T19:13:31.230623Z"
+    },
+    {
+      "id": "cb89a705-ba78-440e-b030-808d0e822315",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 10,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "95318d8d-d23e-4989-af49-1d73fbb94142",
+          "item_id": "cb89a705-ba78-440e-b030-808d0e822315",
+          "language": "de",
+          "text_content": "Name, nehmen, Nomen, Nummer",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236373Z",
+          "updated_at": "2025-11-30T19:13:31.236373Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230623Z",
+      "updated_at": "2025-11-30T19:13:31.230623Z"
+    },
+    {
+      "id": "3198a0f3-3553-4dd8-be5b-e00d19dce12a",
+      "exercise_id": "868018e2-bfbb-4535-8726-3edb52a81b79",
+      "is_library_item": false,
+      "item_type": "word",
+      "instruction_id": null,
+      "instruction": null,
+      "display_order": 11,
+      "repetitions": 5,
+      "duration_seconds": null,
+      "metadata": null,
+      "contents": [
+        {
+          "id": "423a9611-978f-4f94-a4e6-de96c957b87e",
+          "item_id": "3198a0f3-3553-4dd8-be5b-e00d19dce12a",
+          "language": "de",
+          "text_content": "Niemand, Nebel, Norden, Nabel",
+          "demonstration_video_url": null,
+          "image_url": null,
+          "phonetic_transcription": null,
+          "audio_example_url": null,
+          "difficulty": null,
+          "info_type": null,
+          "created_at": "2025-11-30T19:13:31.236374Z",
+          "updated_at": "2025-11-30T19:13:31.236374Z"
+        }
+      ],
+      "created_at": "2025-11-30T19:13:31.230624Z",
+      "updated_at": "2025-11-30T19:13:31.230624Z"
+    }
+  ]
+}

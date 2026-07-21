@@ -1,0 +1,64 @@
+{
+  "employees": {
+    "filters": {
+      "dialogTitle": "Filter Employees",
+      "apply": "Apply Filters",
+      "cancel": "Cancel",
+      "clear": "Clear All",
+      "customFilters": "Custom Filters",
+      
+      "presets": {
+        "all": "All Employees",
+        "allDescription": "Show all employees regardless of status",
+        "active": "Active Only",
+        "activeDescription": "Show only active employees",
+        "inactive": "Inactive Only",
+        "inactiveDescription": "Show only inactive employees",
+        "fulltime": "Full-time Active",
+        "fulltimeDescription": "Show only active full-time employees",
+        "recent": "Recently Hired",
+        "recentDescription": "Show employees hired in the last 6 months"
+      },
+      
+      "quickPresets": {
+        "today": "Logged in Today",
+        "thisWeek": "Logged in This Week",
+        "thisMonth": "Logged in This Month",
+        "clearDates": "Clear Date Filters"
+      },
+      
+      "fields": {
+        "name": "Name",
+        "namePlaceholder": "Enter employee name...",
+        "email": "Email",
+        "emailPlaceholder": "Enter email address...",
+        "employeeId": "Employee ID",
+        "employeeIdPlaceholder": "Enter employee ID...",
+        "isActive": "Active",
+        "employmentStatus": "Employment Status",
+        "employmentStatusPlaceholder": "Select status...",
+        "department": "Department",
+        "departmentPlaceholder": "Select department...",
+        "location": "Location",
+        "locationPlaceholder": "Select location...",
+        "hireDate": "Hire Date Range",
+        "lastLogin": "Last Login Range",
+        "minSalary": "Min Salary",
+        "maxSalary": "Max Salary",
+        "salaryPlaceholder": "Enter amount...",
+        "minAge": "Min Age",
+        "minAgePlaceholder": "Enter minimum age...",
+        "maxAge": "Max Age",
+        "maxAgePlaceholder": "Enter maximum age..."
+      },
+      
+      "groups": {
+        "status": "Status",
+        "location": "Location & Department",
+        "dates": "Date Filters",
+        "compensation": "Compensation",
+        "demographics": "Demographics"
+      }
+    }
+  }
+}

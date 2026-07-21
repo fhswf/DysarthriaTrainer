@@ -1,0 +1,243 @@
+### FastAPI Backend API Tests
+### Use VS Code REST Client extension to run these directly in the editor
+
+@baseUrl = http://localhost:8000
+@apiVersion = v1
+
+### Health Check
+GET {{baseUrl}}/api/{{apiVersion}}/ HTTP/1.1
+
+### 
+### User Authentication
+
+### Login
+# @name login
+POST {{baseUrl}}/api/{{apiVersion}}/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "test123"
+}
+
+###
+@token = {{login.response.body.access_token}}
+
+### Get Current User
+GET {{baseUrl}}/api/{{apiVersion}}/auth/me HTTP/1.1
+Authorization: Bearer {{token}}
+
+###
+### User Management
+
+### Get All Users (requires auth)
+GET {{baseUrl}}/api/{{apiVersion}}/users HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Create User
+POST {{baseUrl}}/api/{{apiVersion}}/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "newuser@example.com",
+  "password": "password123",
+  "full_name": "New User"
+}
+
+###
+### Exercise Categories
+
+### Get All Categories
+GET {{baseUrl}}/api/{{apiVersion}}/exercise/categories HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Create Exercise Category
+# @name createCategory
+POST {{baseUrl}}/api/{{apiVersion}}/exercise/categories HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Pronunciation",
+  "description": "Exercises for pronunciation practice",
+  "display_order": 1
+}
+
+###
+@categoryId = {{createCategory.response.body.id}}
+
+### Update Exercise Category
+PUT {{baseUrl}}/api/{{apiVersion}}/exercise/categories/{{categoryId}} HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Pronunciation Advanced",
+  "description": "Advanced pronunciation exercises",
+  "display_order": 1
+}
+
+###
+### Exercises
+
+### Get All Exercises (with filtering)
+GET {{baseUrl}}/api/{{apiVersion}}/exercise/exercises?category_id={{categoryId}}&language=de HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Get Exercise by ID (with full associations)
+# @name getExercise
+GET {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{categoryId}}?load_instructions=true&load_items=true&language=de HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Create Exercise (NEW STRUCTURE - November 27, 2025)
+# @name createExercise
+POST {{baseUrl}}/api/{{apiVersion}}/exercise/exercises HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "code": "PRON_001",
+  "scope": "Practice pronunciation of common vowel sounds",
+  "title": "Vowel Pronunciation",
+  "category_id": "{{categoryId}}",
+  "display_order": 1,
+  "target_phonemes": ["/aː/", "/ɛ/", "/iː/"],
+  "difficulty_level": "beginner",
+  "estimated_duration_minutes": 15,
+  "instructions": [
+    {
+      "language": "de",
+      "hint_text": "Achten Sie auf die Zungenposition",
+      "explanation_text": "Diese Übung hilft Ihnen, die deutschen Vokale korrekt auszusprechen",
+      "preparation_text": "Entspannen Sie Ihre Gesichtsmuskeln",
+      "display_order": 1
+    },
+    {
+      "language": "en",
+      "hint_text": "Pay attention to tongue position",
+      "explanation_text": "This exercise helps you pronounce German vowels correctly",
+      "preparation_text": "Relax your facial muscles",
+      "display_order": 1
+    }
+  ],
+  "items": []
+}
+
+###
+@exerciseId = {{createExercise.response.body.id}}
+
+### Update Exercise (NEW STRUCTURE)
+PUT {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}} HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "code": "PRON_001",
+  "scope": "Advanced practice for vowel pronunciation",
+  "title": "Vowel Pronunciation Advanced",
+  "category_id": "{{categoryId}}",
+  "display_order": 1,
+  "target_phonemes": ["/aː/", "/ɛ/", "/iː/", "/øː/"],
+  "difficulty_level": "intermediate",
+  "estimated_duration_minutes": 20,
+  "instructions": [
+    {
+      "language": "de",
+      "hint_text": "Konzentrieren Sie sich auf die Lippenrundung",
+      "explanation_text": "Fortgeschrittene Vokalübung mit zusätzlichen Lauten",
+      "preparation_text": "Aufwärmen der Artikulationsorgane",
+      "display_order": 1
+    }
+  ],
+  "items": []
+}
+
+### Partial Update Exercise (PATCH)
+PATCH {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}} HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "title": "Vowel Pronunciation - Updated",
+  "difficulty_level": "advanced"
+}
+
+### Delete Exercise
+DELETE {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}} HTTP/1.1
+Authorization: Bearer {{token}}
+
+###
+### Exercise Items
+
+### Create Exercise Item (with contents)
+# @name createItem
+POST {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}}/items HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "type": "minimal_pair",
+  "target_phoneme": "/aː/",
+  "display_order": 1,
+  "contents": [
+    {
+      "language": "de",
+      "text_content": "Bahn - Bann",
+      "audio_file_url": "/audio/bahn_bann.mp3",
+      "demonstration_video_url": "/videos/bahn_demo.mp4",
+      "phonetic_transcription": "/baːn/ - /ban/",
+      "visual_cue_image_url": "/images/mouth_position_aa.png",
+      "difficulty_notes": "Focus on vowel length distinction"
+    },
+    {
+      "language": "en",
+      "text_content": "Track - Ban",
+      "audio_file_url": "/audio/bahn_bann_en.mp3",
+      "phonetic_transcription": "/baːn/ - /ban/",
+      "difficulty_notes": "Pay attention to the long 'a' sound"
+    }
+  ]
+}
+
+###
+@itemId = {{createItem.response.body.id}}
+
+### Update Exercise Item
+PUT {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}}/items/{{itemId}} HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "type": "minimal_pair",
+  "target_phoneme": "/aː/",
+  "display_order": 1,
+  "contents": [
+    {
+      "language": "de",
+      "text_content": "Bahn - Bann (Updated)",
+      "audio_file_url": "/audio/bahn_bann_v2.mp3",
+      "phonetic_transcription": "/baːn/ - /ban/"
+    }
+  ]
+}
+
+### Get Exercise Item by ID
+GET {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}}/items/{{itemId}}?language=de HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Delete Exercise Item
+DELETE {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}}/items/{{itemId}} HTTP/1.1
+Authorization: Bearer {{token}}
+
+###
+### Exercise Versioning
+
+### Create Exercise Version (snapshot)
+POST {{baseUrl}}/api/{{apiVersion}}/exercise/exercises/{{exerciseId}}/versions HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "scope": "Version 1.1 - Added new phonemes",
+  "changes_summary": "Added /øː/ and /yː/ phonemes to exercise set"
+}

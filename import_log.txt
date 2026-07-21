@@ -1,0 +1,26 @@
+Transforming exercise data...
+Cleaning malformed JSON...
+✓ Cleaned JSON saved to /home/david/project_main_branch/AKI_Sprachtraining_25/data/exercises_cleaned.json
+❌ JSON parsing error at line 1124, column 37: Expecting ',' delimiter
+
+Context:
+     1122:                                     ["Nam", "Nam", "Nam", "Name"],
+     1123:                                     ["Nom", "Nom", "Nom", "Normen"]
+ >>> 1124:                                     ["Nem", "Nem", "Nem", "Nehmen"],
+     1125:                                     ["Name", "nehmen", "Nomen", "Nummer"],
+     1126:                                     ["Niemand", "Nebel", "Norden", "Nabel"]
+     1127: 								]
+Traceback (most recent call last):
+  File "/home/david/project_main_branch/AKI_Sprachtraining_25/backend/scripts/import_exercises.py", line 389, in <module>
+    main()
+  File "/home/david/project_main_branch/AKI_Sprachtraining_25/backend/scripts/import_exercises.py", line 361, in main
+    transformed_data = transform_exercise_data(str(json_file))
+  File "/home/david/project_main_branch/AKI_Sprachtraining_25/backend/scripts/import_exercises.py", line 140, in transform_exercise_data
+    data = json.loads(cleaned_content)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1124 column 37 (char 62794)

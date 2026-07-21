@@ -1,0 +1,112 @@
+services:  
+  # Vue 3 App (with Vite)
+  vue-app:
+    build:
+      context: ./frontend/vue
+    ports:
+      - "5173:5173" # Vite dev server port
+    volumes:
+      - ./frontend/vue:/app # Mount your code with performance optimization
+      - vue_node_modules:/app/node_modules # Prevent node_modules from being overwritten
+    working_dir: /app
+    command: ["npm", "run", "dev"]    
+    networks:
+      - speech-network
+
+  backend:
+    build:
+      context: ./backend
+    container_name: backend-core
+    command: >
+      sh -c "
+        if [ -n \"$$RESTORE_SNAPSHOT\" ]; then
+          echo 'Auto-restoring snapshot: '$$RESTORE_SNAPSHOT &&
+          python scripts/restore.py $$RESTORE_SNAPSHOT --non-interactive
+        fi &&
+        python -m alembic upgrade head &&
+        uvicorn src.main:app --host ${UVICORN_HOST} --port ${UVICORN_PORT} --reload
+      "
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://${UVICORN_HOST}:${UVICORN_PORT}/api/v1/"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 1s
+    depends_on:      
+      postgres_timescale_pg_vector:
+        condition: service_healthy
+    ports:
+      - "${UVICORN_PORT}:8000"
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=${DATABASE_URL?Variable not set}
+      - PYTHONPATH=/app/src
+      - RESTORE_SNAPSHOT=${RESTORE_SNAPSHOT:-}
+    volumes:
+      - ./backend/src:/app/src
+      - ./backend/scripts:/app/scripts
+      - ./backend/tests:/app/tests
+      - ./data/media:/app/media
+      - ./backups/snapshots:/app/backups/snapshots
+      #- ./backend/${MIGRATIONS_DIR?Variable not set}:/app/${MIGRATIONS_DIR}
+      - /etc/localtime:/etc/localtime:ro
+      - model_data:${MODEL_DIR?Variable not set}
+      - hf_cache:${HF_CACHE_DIR?Variable not set}
+    networks:
+      - speech-network
+      - backend-net
+
+  postgres_timescale_pg_vector:
+    #container_name: postgres_sql
+    build:
+      context: ./postgres
+    ports:
+      - "${POSTGRES_PORT}:5432"  # PostgresSQL exposed to host on 5433
+    volumes:
+      - pg_speech:/var/lib/postgresql/data
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}" ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - POSTGRES_DB=${POSTGRES_DB?Variable not set}
+    networks:
+      - speech-network
+      - backend-net
+
+  # pgAdmin for managing PostgresSQL
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin4_database_tool
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL?Variable not set}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD?Variable not set}
+    ports:
+      - "5050:80"  # Access pgAdmin
+    depends_on:
+      - postgres_timescale_pg_vector
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      - speech-network
+
+volumes:
+  web_app:
+  vue_node_modules:
+  pgadmin_data:  
+  pg_speech:
+  hf_cache:
+  model_data:
+
+networks:
+  speech-network:
+    driver: bridge
+  backend-net:
+    driver: bridge

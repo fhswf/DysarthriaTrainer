@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "primeicons/primeicons.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure this container takes at least full viewport height */
+}

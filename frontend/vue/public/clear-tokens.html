@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Authentication Tokens</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+        .info {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .success {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            display: none;
+        }
+        button {
+            background: #2196f3;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #1976d2;
+        }
+        .tokens-list {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #2196f3;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🔧 Clear Authentication Tokens</h1>
+        
+        <div class="info">
+            <strong>⚠️ Note:</strong> This tool clears all authentication tokens from your browser's local storage. 
+            You will need to log in again after clearing tokens.
+        </div>
+
+        <div class="info">
+            <strong>When to use this:</strong>
+            <ul>
+                <li>Getting "Invalid token: missing user_id" errors</li>
+                <li>403 Forbidden when trying to update profile</li>
+                <li>Token refresh failures (422 errors)</li>
+                <li>After backend updates that change token format</li>
+            </ul>
+        </div>
+
+        <div id="currentTokens" class="tokens-list">
+            <strong>Current tokens in localStorage:</strong><br>
+            <span id="tokensList">Loading...</span>
+        </div>
+
+        <button onclick="clearTokens()">Clear All Tokens</button>
+
+        <div id="success" class="success">
+            ✅ <strong>Success!</strong> All authentication tokens have been cleared.
+            <br><br>
+            <a href="/" class="back-link">← Go to Login Page</a>
+        </div>
+
+        <a href="/" class="back-link">← Back to App</a>
+    </div>
+
+    <script>
+        // Display current tokens
+        function displayTokens() {
+            const keys = Object.keys(localStorage);
+            const authKeys = keys.filter(key => 
+                key.includes('token') || 
+                key.includes('auth') || 
+                key.includes('refresh') ||
+                key.includes('access')
+            );
+            
+            const tokensList = document.getElementById('tokensList');
+            if (authKeys.length === 0) {
+                tokensList.innerHTML = '<em style="color: #999;">No authentication tokens found</em>';
+            } else {
+                tokensList.innerHTML = authKeys.map(key => 
+                    `• ${key}: ${localStorage.getItem(key)?.substring(0, 50)}...`
+                ).join('<br>');
+            }
+        }
+
+        function clearTokens() {
+            // Clear all localStorage
+            localStorage.clear();
+            
+            // Also clear sessionStorage
+            sessionStorage.clear();
+            
+            // Show success message
+            document.getElementById('success').style.display = 'block';
+            displayTokens();
+            
+            // Optional: Redirect to login after 2 seconds
+            setTimeout(() => {
+                window.location.href = '/';
+            }, 2000);
+        }
+
+        // Display tokens on page load
+        displayTokens();
+    </script>
+</body>
+</html>

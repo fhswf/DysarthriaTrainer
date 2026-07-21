@@ -1,0 +1,20 @@
+{
+  "name": "aki-sprachtraining",
+  "version": "1.0.0",
+  "description": "AKI Sprachtraining - Speech Training Application",
+  "scripts": {
+    "backup": "docker compose exec backend python scripts/backup.py",
+    "backup:named": "docker compose exec backend python scripts/backup.py",
+    "restore": "docker compose exec backend python scripts/restore.py",
+    "restore:latest": "docker compose exec backend python scripts/restore.py latest",
+    "snapshots:list": "docker compose exec backend python scripts/restore.py --help || echo 'Run: npm run restore' to see available snapshots"
+  },
+  "keywords": [
+    "speech-training",
+    "therapy",
+    "pronunciation"
+  ],
+  "author": "AKI Sprachtraining Team",
+  "license": "UNLICENSED",
+  "private": true
+}

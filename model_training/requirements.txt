@@ -1,0 +1,15 @@
+numpy
+librosa
+Levenshtein
+matplotlib>=3.5,<3.7
+seaborn
+torch
+ppgs
+allosaurus
+transformers
+editdistance
+pandas
+scikit-learn
+sounddevice
+soundfile
+TTS

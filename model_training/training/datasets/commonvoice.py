@@ -1,0 +1,5 @@
+from datasets.commonvoice_german import CommonvoiceGermanDataset
+from datasets.commonvoice_english import CommonvoiceEnglishDataset
+
+
+CommonvoiceDataset = CommonvoiceGermanDataset

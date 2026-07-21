@@ -1,0 +1,18 @@
+<svg width="200" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40">
+  <!-- Icon: Microphone -->
+  <g transform="translate(8, 8)">
+    <!-- Microphone head (circle) -->
+    <circle cx="12" cy="10" r="4" fill="#3B82F6" stroke="#2563EB" stroke-width="1"/>
+    <!-- Microphone body (rounded rectangle) -->
+    <rect x="10" y="14" width="4" height="6" rx="1" fill="#3B82F6"/>
+    <!-- Microphone stand (horizontal line) -->
+    <line x1="8" y1="20" x2="16" y2="20" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+    <!-- Microphone stand (vertical line) -->
+    <line x1="12" y1="20" x2="12" y2="24" stroke="#2563EB" stroke-width="2"/>
+  </g>
+  
+  <!-- Text: App Name -->
+  <text x="36" y="26" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="#1F2937">
+    AKI Speech Training
+  </text>
+</svg>

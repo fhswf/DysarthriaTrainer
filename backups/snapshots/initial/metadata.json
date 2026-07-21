@@ -1,0 +1,11 @@
+{
+  "snapshot_name": "backup_20260711_115154",
+  "created_at": "2026-07-11T11:51:55.142538",
+  "database_size_bytes": 432497,
+  "media_files_count": 45,
+  "media_size_bytes": 9538274,
+  "total_size_bytes": 9970771,
+  "postgres_user": "postgres",
+  "postgres_db": "demodb",
+  "backup_version": "1.0"
+}

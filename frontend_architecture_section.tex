@@ -1,0 +1,100 @@
+\subsection{Frontend Architecture}
+\label{subsec:frontend-architecture}
+
+The frontend implementation utilizes a modern, reactive web architecture designed for responsive cross-device compatibility and real-time user interaction. Built on Vue 3.5 with TypeScript 5.8, the application follows a service-based architecture with strict separation of concerns and comprehensive type safety.
+
+\subsubsection{Technology Stack and Framework Integration}
+
+The frontend technology stack emphasizes developer experience, performance, and maintainability through carefully selected frameworks and libraries:
+
+\begin{itemize}
+    \item \textbf{Framework:} Vue 3.5 with Composition API -- providing reactive state management, lifecycle hooks, and component composition with full TypeScript support
+    \item \textbf{Build System:} Vite 6.2 -- enabling hot module replacement (HMR), optimized bundling, and instant development server startup
+    \item \textbf{State Management:} Pinia 3.0 -- type-safe store architecture with dependency injection for service composition
+    \item \textbf{UI Component Library:} PrimeVue 4.3 -- comprehensive component suite with 80+ accessible, customizable components (FloatLabel, Card, DataTable, Dialog)
+    \item \textbf{Styling Framework:} Tailwind CSS v4.1 -- utility-first CSS framework with JIT compilation and responsive design utilities
+    \item \textbf{Form Validation:} Vee-Validate 4.15 + Yup -- declarative schema-based validation with real-time error feedback
+    \item \textbf{Internationalization:} Vue-i18n 9.14 -- multi-language support with domain-based translation organization
+    \item \textbf{HTTP Client:} Axios 1.8 -- promise-based HTTP client with interceptors for authentication and error handling
+\end{itemize}
+
+\subsubsection{Responsive Design System}
+
+The application implements a comprehensive responsive design strategy following mobile-first principles. All interfaces adapt seamlessly across device categories through Tailwind CSS's responsive utility classes:
+
+\begin{description}
+    \item[Mobile (default):] Single-column layouts with touch-optimized controls ($<$ 768px)
+    \item[Tablet (md):] Two-column grids, expanded navigation, enhanced spacing ($\geq$ 768px)
+    \item[Desktop (lg):] Multi-column layouts, sidebar navigation, advanced interactions ($\geq$ 1024px)
+    \item[Wide Desktop (xl):] Maximum content width with centered layout ($\geq$ 1280px)
+\end{description}
+
+Layout responsiveness is achieved through systematic use of Tailwind's responsive modifiers (\texttt{sm:}, \texttt{md:}, \texttt{lg:}, \texttt{xl:}) combined with CSS Grid and Flexbox utilities. For example, form fields stack vertically on mobile (\texttt{grid-cols-1}) and transition to side-by-side layouts on tablets (\texttt{md:grid-cols-2}), while dashboard widgets expand to three columns on desktop (\texttt{lg:grid-cols-3}).
+
+PrimeVue components contribute to responsive behavior through adaptive rendering patterns. The DataTable component automatically switches to responsive stacking mode on mobile devices, while Dialog components scale appropriately based on viewport dimensions. All interactive elements maintain minimum touch target sizes of 44×44px in accordance with accessibility guidelines \cite{wcag2021}.
+
+\subsubsection{Service-Based Architecture}
+
+The frontend follows a store-based service architecture with seven core services implemented as Pinia stores with dependency injection:
+
+\begin{enumerate}
+    \item \textbf{Configuration Service:} Environment-based settings, feature flags, API endpoints
+    \item \textbf{Messaging Service:} Centralized toast notifications, message logging, error display
+    \item \textbf{Localization Service:} i18n translation management, locale switching, date/number formatting
+    \item \textbf{API Service:} HTTP client abstraction, request/response interceptors, caching layer
+    \item \textbf{Error Service:} Global error handling, automatic retry logic, error recovery strategies
+    \item \textbf{Validation Service:} Form validation schemas, field-level validation, custom validators
+    \item \textbf{Authentication Service:} JWT token management, RBAC permission checks, session handling
+\end{enumerate}
+
+Services are initialized through a three-phase bootstrap process at application startup, ensuring proper dependency resolution and preventing circular dependencies. Each service exposes both live and mock implementations, facilitating isolated testing and development.
+
+\subsubsection{Real-Time Communication Architecture}
+
+The frontend integrates WebSocket connections for bidirectional real-time communication with the backend, particularly for speech analysis progress updates. The WebSocket lifecycle follows this pattern:
+
+\begin{enumerate}
+    \item Client initiates analysis request via REST API
+    \item Backend responds with WebSocket connection URL
+    \item Client establishes authenticated WebSocket connection using JWT token
+    \item Server streams progress updates (percentage completion, current item, intermediate results)
+    \item Client updates UI reactively using Vue's reactive state system
+    \item Connection automatically closes on completion or error
+\end{enumerate}
+
+WebSocket state is managed through Vue composables, ensuring proper connection cleanup, reconnection logic on network interruptions, and graceful degradation when WebSocket support is unavailable.
+
+\subsubsection{User Interface Design Principles}
+
+Analysis of the application interface (Figure \ref{fig:frontend-screenshot}) reveals adherence to established usability heuristics and contemporary design patterns:
+
+\begin{description}
+    \item[Minimalist Visual Hierarchy:] The main menu employs a clean, icon-driven design with clear visual separation between action items. Large, colorful icons (play button, list icon, user profile) provide immediate affordance recognition, reducing cognitive load for users with speech impairments who may also experience cognitive challenges.
+    
+    \item[Consistent Color Coding:] Each primary action is associated with a distinct color (green for ``Start Training'', blue for ``Select Training'', purple for ``Training Profile''), facilitating quick visual scanning and establishing mental models through color association.
+    
+    \item[Clear Information Scent:] Action labels are accompanied by descriptive subtitles (``Beginne eine neue Übung'', ``Wähle eine neue Übung'', ``Fortschritt und Einstellungen''), providing users with explicit expectations of outcomes before interaction -- critical for users with dysarthria who may have limited motor control precision.
+    
+    \item[Generous Whitespace and Touch Targets:] The interface maintains ample spacing between interactive elements, exceeding minimum touch target recommendations. This design consideration is particularly valuable for users with motor control difficulties associated with dysarthric conditions.
+    
+    \item[Persistent Navigation Context:] The top navigation bar displays user identification (``TU'' badge) and maintains consistent positioning across views, supporting spatial memory and reducing disorientation during task switching.
+    
+    \item[Flat Information Architecture:] The main menu presents all primary functions at a single level without nested menus, reducing navigation complexity and supporting users with cognitive impairments.
+\end{description}
+
+These design principles align with accessibility guidelines for users with motor and cognitive disabilities \cite{wcag2021, iso9241_2019}, ensuring the application remains usable across the target demographic of dysarthric speakers, who may present with varying degrees of motor and cognitive challenges depending on underlying etiology.
+
+\subsubsection{Component Organization and Code Structure}
+
+The frontend codebase follows a feature-based organization with clear domain separation:
+
+\begin{itemize}
+    \item \textbf{Pages:} Feature-specific page components with co-located composables and types
+    \item \textbf{Components:} Reusable UI components organized by domain (session, exercise, audio)
+    \item \textbf{Forms:} Isolated form modules with validation schemas, type definitions, and form-specific composables
+    \item \textbf{Layouts:} Application-wide layout templates (default layout with navbar, authentication layout for login/register)
+    \item \textbf{API Modules:} Type-safe API client wrappers per resource domain
+    \item \textbf{Locales:} Domain-based translation files for German and English
+\end{itemize}
+
+This organization supports scalability and maintainability by ensuring related functionality remains co-located while preventing circular dependencies through strict unidirectional import patterns.
