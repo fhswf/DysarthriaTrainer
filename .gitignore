@@ -13,7 +13,6 @@ compose.local.yml
 
 # Ignore environment and secrets
 .env
-.env.*
 !.env.example  # Keep a template
 
 # Ignore volumes or shared mounts
