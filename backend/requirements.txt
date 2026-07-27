@@ -11,7 +11,7 @@ psycopg2-binary  # For sync database operations in tests (database creation)
 python-dotenv
 bcrypt==4.0.1
 passlib[bcrypt]
-PyJWT==2.8.0
+PyJWT==2.13.0
 cryptography==41.0.7  # Required for RS256 JWT signing
 
 # phoneme recognition
