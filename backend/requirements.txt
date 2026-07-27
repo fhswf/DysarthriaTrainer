@@ -16,7 +16,7 @@ cryptography==41.0.7  # Required for RS256 JWT signing
 
 # phoneme recognition
 librosa
-torch==2.6.0
+torch==2.13.0
 torchaudio==2.6.0
 transformers
 
