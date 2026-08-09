@@ -20,7 +20,7 @@
     "@vee-validate/yup": "^4.15.1",
     "axios": "^1.8.4",
     "dayjs": "^1.11.19",
-    "nanoid": "^5.1.5",
+    "nanoid": "^5.1.16",
     "pinia": "^3.0.1",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.3",
