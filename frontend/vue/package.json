@@ -33,7 +33,7 @@
     "yup": "^1.7.1"
   },
   "devDependencies": {
-    "@faker-js/faker": "^10.0.0",
+    "@faker-js/faker": "^10.5.0",
     "@playwright/test": "^1.51.1",
     "@primevue/auto-import-resolver": "^4.3.3",
     "@tsconfig/node22": "^22.0.1",
